@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="14" pc="268435456" symbol="initialize"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="15" pc="268435458" symbol="initialize"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="19" pc="268435477" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="20" pc="268435479" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="21" pc="268435516" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="22" pc="268435559" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="28" pc="268435603" symbol="onShow"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="32" pc="268435606" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="34" pc="268435608" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="35" pc="268435625" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="36" pc="268435656" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="37" pc="268435673" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="39" pc="268435690" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="40" pc="268435707" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="41" pc="268435717" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="42" pc="268435727" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="43" pc="268435737" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="45" pc="268435756" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="46" pc="268435780" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="47" pc="268435790" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="49" pc="268435797" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="50" pc="268435871" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="51" pc="268435947" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="52" pc="268436000" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="53" pc="268436048" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="54" pc="268436101" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="57" pc="268436154" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="58" pc="268436161" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="59" pc="268436184" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="63" pc="268436203" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="64" pc="268436214" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="66" pc="268436224" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="67" pc="268436235" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="71" pc="268436245" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="72" pc="268436281" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="74" pc="268436293" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="75" pc="268436329" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="76" pc="268436377" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="78" pc="268436425" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="79" pc="268436461" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="81" pc="268436509" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="82" pc="268436539" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="84" pc="268436569" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="85" pc="268436605" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="87" pc="268436653" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="89" pc="268436670" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="90" pc="268436706" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="91" pc="268436738" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="93" pc="268436770" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="94" pc="268436806" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="96" pc="268436835" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="97" pc="268436871" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="103" pc="268436901" symbol="onHide"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="107" pc="268436904" symbol="onExitSleep"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="111" pc="268436907" symbol="onEnterSleep"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunApp.mc" lineNum="5" pc="268436910" symbol="initialize"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunApp.mc" lineNum="6" pc="268436912" symbol="initialize"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunApp.mc" lineNum="10" pc="268436931" symbol="onStart"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunApp.mc" lineNum="14" pc="268436934" symbol="onStop"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunApp.mc" lineNum="18" pc="268436937" symbol="getInitialView"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunApp.mc" lineNum="19" pc="268436939" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="20" pc="268436977" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="22" pc="268436979" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="23" pc="268437142" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="24" pc="268437167" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="25" pc="268437219" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="28" pc="268437265" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="9" object="true" symbol="FatBoyFunApp"/>
+<entry field="true" id="8388611" symbol="Toybox"/>
+<entry id="8388645" symbol="Time"/>
+<entry id="8388770" module="true" symbol="Strings"/>
+<entry field="true" id="16" symbol="bmp"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388640" symbol="Lang"/>
+<entry field="true" id="17" symbol="hrt"/>
+<entry id="8388769" module="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry field="true" id="12" symbol="FatBoy"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="15" symbol="AppName"/>
+<entry id="8389375" method="true" symbol="WatchFace"/>
+<entry id="8" object="true" symbol="FatBoyFunView"/>
+<entry field="true" id="14" symbol="LauncherIcon"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389065" symbol="locY"/>
+<entry id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="13" symbol="Heart"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry id="8389348" symbol="font"/>
+<entry id="8389347" symbol="color"/>
+<entry id="11" module="true" symbol="Layouts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8389063" symbol="identifier"/>
+<entry id="10" module="true" symbol="Menus"/>
+<entry id="8388772" module="true" symbol="Fonts"/>
+</symbolTable>
+<localVars>
+<entry endPc="268436900" name="barActivity" stackId="19" startPc="268435608"/>
+<entry endPc="268436900" name="stepGoal" stackId="7" startPc="268435608"/>
+<entry endPc="268436900" name="now" stackId="2" startPc="268435608"/>
+<entry endPc="268436900" name="hrtNext" stackId="12" startPc="268435608"/>
+<entry endPc="268436900" name="activityStr" stackId="17" startPc="268435608"/>
+<entry endPc="268436900" name="moveBarLevel" stackId="9" startPc="268435608"/>
+<entry endPc="268436900" name="hrtIter" stackId="11" startPc="268435608"/>
+<entry endPc="268436900" name="dateStr" stackId="15" startPc="268435608"/>
+<entry endPc="268436900" name="clockTime" stackId="4" startPc="268435608"/>
+<entry endPc="268436900" name="hrtRate" stackId="13" startPc="268435608"/>
+<entry endPc="268436900" name="timeStr" stackId="14" startPc="268435608"/>
+<entry endPc="268436900" name="moveBarLevelRange" stackId="10" startPc="268435608"/>
+<entry endPc="268436900" name="barSteps" stackId="18" startPc="268435608"/>
+<entry endPc="268436900" name="steps" stackId="8" startPc="268435608"/>
+<entry endPc="268436900" name="info" stackId="3" startPc="268435608"/>
+<entry endPc="268436900" name="batteryStr" stackId="16" startPc="268435608"/>
+<entry endPc="268436900" name="activityInfo" stackId="6" startPc="268435608"/>
+<entry endPc="268436900" name="stats" stackId="5" startPc="268435608"/>
+<entry endPc="268437282" name="rez_cmp_local_bitmap_TimeLabel" stackId="2" startPc="268436979"/>
+<entry endPc="268437282" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="3" startPc="268436979"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry name="initialize" parent="FatBoyFunView">
+<documentation/>
+</functionEntry>
+<functionEntry name="onLayout" parent="FatBoyFunView">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Load your resources here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onShow" parent="FatBoyFunView">
+<documentation><![CDATA[<div class="description"> Called when this View is brought to the foreground. Restore<br/> the state of this View and prepare it to be shown. This includes<br/> loading resources into memory.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onUpdate" parent="FatBoyFunView">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Update the view<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onHide" parent="FatBoyFunView">
+<documentation><![CDATA[<div class="description"> Called when this View is removed from the screen. Save the<br/> state of this View here. This includes freeing resources from<br/> memory.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onExitSleep" parent="FatBoyFunView">
+<documentation><![CDATA[<div class="description"> The user has just looked at their watch. Timers and animations may be started here.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onEnterSleep" parent="FatBoyFunView">
+<documentation><![CDATA[<div class="description"> Terminate any active timers and prepare for slow updates.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="initialize" parent="FatBoyFunApp">
+<documentation/>
+</functionEntry>
+<functionEntry name="onStart" parent="FatBoyFunApp">
+<documentation><![CDATA[<div class="description"> onStart() is called on application start up<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="onStop" parent="FatBoyFunApp">
+<documentation><![CDATA[<div class="description"> onStop() is called when your application is exiting<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="getInitialView" parent="FatBoyFunApp">
+<documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry name="WatchFace" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+</debugInfo>
