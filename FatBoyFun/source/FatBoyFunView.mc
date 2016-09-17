@@ -72,17 +72,17 @@ class FatBoyFunView extends Ui.WatchFace {
         dc.clear();
         
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-		dc.drawText (135, 0, Gfx.FONT_TINY, batteryStr, Gfx.TEXT_JUSTIFY_CENTER);
-		dc.drawText (135, 20, Gfx.FONT_TINY, dateStr, Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText (50, 50, Gfx.FONT_TINY, batteryStr, Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText (50, 70, Gfx.FONT_TINY, dateStr, Gfx.TEXT_JUSTIFY_CENTER);
 		
 		dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT);
         dc.drawText (105, 135, Gfx.FONT_NUMBER_HOT, timeStr, Gfx.TEXT_JUSTIFY_CENTER);
                       
  		dc.drawBitmap(0, 70, bmp); 
- 		dc.drawBitmap(20,40, hrt);   
+ 		dc.drawBitmap(80, 5, hrt);   
  		
  		dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
- 		dc.drawText (50, 40, Gfx.FONT_LARGE, hrtRate, Gfx.TEXT_JUSTIFY_CENTER);
+ 		dc.drawText (110, 10, Gfx.FONT_LARGE, hrtRate, Gfx.TEXT_JUSTIFY_CENTER);
 
  		dc.setPenWidth(1);
  		
