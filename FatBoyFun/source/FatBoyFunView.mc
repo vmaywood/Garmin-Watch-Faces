@@ -36,65 +36,79 @@ class FatBoyFunView extends Ui.WatchFace {
         var clockTime = Sys.getClockTime();
         var stats = Sys.getSystemStats();
         
+        var hrtIter = (Act has :getHeartRateHistory) ? Act.getHeartRateHistory(1, true) : null;      
         var activityInfo = Act.getInfo();
-        var stepGoal = activityInfo.stepGoal;
-        var steps = activityInfo.steps;
+        var stepGoal = 10000;//activityInfo.stepGoal;
+        var steps = 6000;//activityInfo.steps;
         var moveBarLevel = activityInfo.moveBarLevel;
         var moveBarLevelRange = activityInfo.MOVE_BAR_LEVEL_MAX-activityInfo.MOVE_BAR_LEVEL_MIN;
-        
-        var hrtIter = Act.getHeartRateHistory(1, true);
-        var hrtNext = hrtIter.next;
-        var hrtRate = "---";       
-        
+        var barLen = 65;	// Pixel width of steps and move bars
+        var barSteps = stepGoal ? (barLen*(steps.toDouble()/stepGoal.toDouble())).toNumber() : 0;
+        var barActivity = moveBarLevelRange ? (barLen*(moveBarLevel.toDouble()/moveBarLevelRange.toDouble())).toNumber() : 0;
+               
         var timeStr = Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%02d")]);
         var dateStr = Lang.format("$1$ $2$ $3$", [info.day_of_week, info.day, info.month]);
         var batteryStr = Lang.format("$1$%", [stats.battery.toNumber()]);
         var activityStr = Lang.format("$1$/$2$", [steps, stepGoal]);
-        var barSteps = stepGoal ? (65*(steps.toDouble()/stepGoal.toDouble())).toNumber() : 0;
-        var barActivity = moveBarLevelRange ? (65*(moveBarLevel.toDouble()/moveBarLevelRange.toDouble())).toNumber() : 0;
-
-        
-        if (hrtIter != null) {
-        		if (hrtIter.getMax() != hrtIter.INVALID_HR_SAMPLE) {
-        			hrtRate = hrtIter.getMax();
-        		}
+        var halfWidth = dc.getWidth()/2;
+        var halfHeight = dc.getHeight()/2;
+        var offsetHeight = null;
+        var timeFont = null;
+          
+        if (halfHeight <= 74) {
+        	timeFont = Gfx.FONT_MEDIUM;
+        	offsetHeight = 50;
         }
-    
-    	if (barSteps > 65) {
-    		barSteps = 65;
+        else if (halfHeight <= 90) {
+        	timeFont = Gfx.FONT_NUMBER_MEDIUM ;
+        	offsetHeight = 70;
+        }
+        else {
+        	timeFont = Gfx.FONT_NUMBER_HOT;
+        	offsetHeight =70;
+        }
+        
+    	if (barSteps > barLen) {		// Limit bar to 100%
+    		barSteps = barLen;
     	}
-    	if (barActivity > 65) {
-    		barActivity = 65;
+    	if (barActivity > barLen) {		// Limit bar to 100%
+    		barActivity = barLen;
     	}
-
         
         dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);
         dc.clear();
         
+        dc.drawBitmap(0, offsetHeight, bmp); 
+ 		dc.drawBitmap(80, 5, hrt);  
+ 		
+ 		// Get most recent heart rate from history
+        if (hrtIter != null) {
+        	var hrtRate = "---";		// Default display if no heart rate available
+        	if (hrtIter.getMax() != hrtIter.INVALID_HR_SAMPLE) {
+        		hrtRate = hrtIter.getMax();
+        	}       	 		
+ 			dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
+ 			dc.drawText (110, 10, Gfx.FONT_LARGE, hrtRate, Gfx.TEXT_JUSTIFY_CENTER);		
+        }
+        
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-		dc.drawText (50, 50, Gfx.FONT_TINY, batteryStr, Gfx.TEXT_JUSTIFY_CENTER);
-		dc.drawText (50, 70, Gfx.FONT_TINY, dateStr, Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText (50, offsetHeight-20, Gfx.FONT_TINY, batteryStr, Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText (50, offsetHeight, Gfx.FONT_TINY, dateStr, Gfx.TEXT_JUSTIFY_CENTER);
 		
 		dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT);
-        dc.drawText (105, 135, Gfx.FONT_NUMBER_HOT, timeStr, Gfx.TEXT_JUSTIFY_CENTER);
-                      
- 		dc.drawBitmap(0, 70, bmp); 
- 		dc.drawBitmap(80, 5, hrt);   
- 		
- 		dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
- 		dc.drawText (110, 10, Gfx.FONT_LARGE, hrtRate, Gfx.TEXT_JUSTIFY_CENTER);
+        dc.drawText (halfWidth, offsetHeight+65, timeFont, timeStr, Gfx.TEXT_JUSTIFY_CENTER);                    
 
  		dc.setPenWidth(1);
  		
-		dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);
- 		dc.fillRectangle(3, 112, 67, 6);
-		dc.fillRectangle(12, 129, 67, 6);
+		dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);	// Black container for bars
+ 		dc.fillRectangle(3, offsetHeight+42, 67, 6);
+		dc.fillRectangle(12, offsetHeight+59, 67, 6);
  		
- 		dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_GREEN);
- 		dc.fillRectangle(4, 113, barSteps, 4);
+ 		dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_GREEN);	// % steps to goal bar
+ 		dc.fillRectangle(4, offsetHeight+43, barSteps, 4);
  		
- 		dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_RED);		
- 		dc.fillRectangle(13, 130, barActivity, 4);
+ 		dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_RED);		// Move bar
+ 		dc.fillRectangle(13, offsetHeight+60, barActivity, 4);
     }
 
     //! Called when this View is removed from the screen. Save the
