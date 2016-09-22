@@ -38,11 +38,11 @@ class FatBoyFunView extends Ui.WatchFace {
         
         var hrtIter = (Act has :getHeartRateHistory) ? Act.getHeartRateHistory(1, true) : null;      
         var activityInfo = Act.getInfo();
-        var stepGoal = 10000;//activityInfo.stepGoal;
-        var steps = 6000;//activityInfo.steps;
-        var floorsGoal = 25;//activityInfo.floorsClimbedGoal;
-        var floors = 13;//activityInfo.floorsClimbed;
-        var moveBarLevel = 5;//= activityInfo.moveBarLevel;
+        var stepGoal = activityInfo.stepGoal;
+        var steps = activityInfo.steps;
+        var floorsGoal = activityInfo.floorsClimbedGoal;
+        var floors = activityInfo.floorsClimbed;
+        var moveBarLevel = activityInfo.moveBarLevel;
         var moveBarLevelRange = activityInfo.MOVE_BAR_LEVEL_MAX-activityInfo.MOVE_BAR_LEVEL_MIN;
         var exhaustLen = 65;	// Pixel width of steps and floors bars
         var barSteps = stepGoal ? (exhaustLen*(steps.toDouble()/stepGoal.toDouble())).toNumber() : 0;
@@ -145,7 +145,7 @@ class FatBoyFunView extends Ui.WatchFace {
  		dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_GREEN);	// % steps to goal bar
  		dc.fillRectangle(4, offsetHeight+43, barSteps, 4);
  		
- 		dc.setColor(Gfx.COLOR_BLUE, Gfx.COLOR_BLUE);		// floors to goal bar
+ 		dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_YELLOW);		// floors to goal bar
  		dc.fillRectangle(13, offsetHeight+60, barFloors, 4);
  		
  		dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_RED);		// Move bar
