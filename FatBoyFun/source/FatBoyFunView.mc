@@ -8,8 +8,8 @@ using Toybox.Lang as Lang;
 
 class FatBoyFunView extends Ui.WatchFace {
 
-	var bmp = null;
-	var hrt = null;
+	var bmp;
+	var hrt;
 
     function initialize() {
         WatchFace.initialize();
@@ -39,14 +39,14 @@ class FatBoyFunView extends Ui.WatchFace {
         var hrtIter = (Act has :getHeartRateHistory) ? Act.getHeartRateHistory(1, true) : null;      
         var activityInfo = Act.getInfo();
         var stepGoal = activityInfo.stepGoal;
-        var steps = activityInfo.steps;
-        var floorsGoal = activityInfo.floorsClimbedGoal;
-        var floors = activityInfo.floorsClimbed;
+        var steps = activityInfo.steps; 
+        var CaloriesGoal = 2400;
+        var Calories = activityInfo.calories;
         var moveBarLevel = activityInfo.moveBarLevel;
         var moveBarLevelRange = activityInfo.MOVE_BAR_LEVEL_MAX-activityInfo.MOVE_BAR_LEVEL_MIN;
-        var exhaustLen = 65;	// Pixel width of steps and floors bars
+        var exhaustLen = 65;	// Pixel width of steps and Calories bars
         var barSteps = stepGoal ? (exhaustLen*(steps.toDouble()/stepGoal.toDouble())).toNumber() : 0;
-        var barFloors = floorsGoal ? (exhaustLen*(floors.toDouble()/floorsGoal.toDouble())).toNumber() : 0;
+        var barCalories = CaloriesGoal ? (exhaustLen*(Calories.toDouble()/CaloriesGoal.toDouble())).toNumber() : 0;
         var timeStr = Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%02d")]);
         var dateStr = Lang.format("$1$ $2$ $3$", [info.day_of_week, info.day, info.month]);
         var batteryStr = Lang.format("$1$%", [stats.battery.toNumber()]);
@@ -64,7 +64,7 @@ class FatBoyFunView extends Ui.WatchFace {
         var offsetTime = null;
         var offsetHeart = null;
         var timeFont = null;
-          
+                 
         if (height <= 148) {					// Epix, Forerunner 920XT
         	timeFont = Gfx.FONT_MEDIUM;
         	offsetTime = height - 28;
@@ -106,9 +106,9 @@ class FatBoyFunView extends Ui.WatchFace {
     	if (barSteps > exhaustLen) {		// Limit bar to 100%
     		barSteps = exhaustLen;
     	}
-    	if (barFloors > exhaustLen) {		// Limit bar to 100%
-    		barFloors = exhaustLen;
-    	}
+      	if (barCalories > exhaustLen) {		// Limit bar to 100%
+      		barCalories = exhaustLen;
+      	}
     	if (barActivity > activityLen) {		// Limit bar to 100%
     		barActivity = activityLen;
     	}
@@ -145,8 +145,8 @@ class FatBoyFunView extends Ui.WatchFace {
  		dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_GREEN);	// % steps to goal bar
  		dc.fillRectangle(4, offsetHeight+43, barSteps, 4);
  		
- 		dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_YELLOW);		// floors to goal bar
- 		dc.fillRectangle(13, offsetHeight+60, barFloors, 4);
+ 		dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_YELLOW);		// Calories to goal bar
+ 		dc.fillRectangle(13, offsetHeight+60, barCalories, 4);
  		
  		dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_RED);		// Move bar
  		dc.fillRectangle(offsetWidthActivity, offsetHeightActivity, barActivity, 4);
