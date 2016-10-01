@@ -3,12 +3,18 @@ using Toybox.Graphics as Gfx;
 using Toybox.ActivityMonitor as Act;
 using Toybox.UserProfile as User;
 using Toybox.System as Sys;
+using Toybox.Application as App;
 using Toybox.Time as Time;
 using Toybox.Time.Gregorian as Calendar;
 using Toybox.Lang as Lang;
 
 class FatBoyFunView extends Ui.WatchFace {
 
+	const square = 148;
+	const semiround = 180;
+	const rectangle = 205;
+	const round = 218;
+	
 	var bmp;
 	var hrt;
 	
@@ -112,7 +118,6 @@ class FatBoyFunView extends Ui.WatchFace {
 
     //! Load your resources here
     function onLayout(dc) {
-        setLayout(Rez.Layouts.WatchFace(dc));
         bmp = Ui.loadResource(Rez.Drawables.FatBoy);
         hrt = Ui.loadResource(Rez.Drawables.Heart);
     }
@@ -128,6 +133,7 @@ class FatBoyFunView extends Ui.WatchFace {
         // Get and show the current time
         var now = Time.now();
         var info = Calendar.info(now, Time.FORMAT_LONG);
+        var infoShort = Calendar.info(now, Time.FORMAT_SHORT);
         var clockTime = Sys.getClockTime();
         var stats = Sys.getSystemStats();       
         var hrtIter = (Act has :getHeartRateHistory) ? Act.getHeartRateHistory(1, true) : null;      
@@ -151,8 +157,10 @@ class FatBoyFunView extends Ui.WatchFace {
         var stepsBarLen = stepGoal ? (progressBarLen*(steps.toDouble()/stepGoal.toDouble())).toNumber() : 0;
         var caloriesBarLen = eer ? (progressBarLen*(Calories.toDouble()/eer.toDouble())).toNumber() : 0;
         
-        var timeStr = Lang.format("$1$:$2$", [clockTime.hour, clockTime.min.format("%02d")]);
-        var dateStr = Lang.format("$1$ $2$ $3$", [info.day_of_week, info.day, info.month]);
+        var hour = clockTime.hour;
+        var hourDisplay = (!Sys.getDeviceSettings().is24Hour && hour > 12) ? hour%12 : hour;
+        var timeStr = Lang.format("$1$:$2$", [hourDisplay, clockTime.min.format("%02d")]);
+        var dateStr = null;	// Check user setting further down and set accordingly
         var batteryStr = Lang.format("$1$%", [stats.battery.toNumber()]);
         var activityStr = Lang.format("$1$/$2$", [steps, stepGoal]);
         var eerStr = Lang.format("eer $1$", [eer]);
@@ -170,7 +178,7 @@ class FatBoyFunView extends Ui.WatchFace {
         var offsetHeart = null;
         var timeFont = null;
                  
-        if (screenHeight <= 148) {					// Epix, Forerunner 920XT
+        if (screenHeight <= square) {					// Epix, Forerunner 920XT
         	timeFont = Gfx.FONT_MEDIUM;
         	offsetTime = screenHeight - 28;
         	offsetHeight = 50;
@@ -179,7 +187,7 @@ class FatBoyFunView extends Ui.WatchFace {
         	activityLen = 45;
         	offsetHeart = screenWidth-130;
         }
-        else if (screenHeight <= 180) {				// Forerunner
+        else if (screenHeight <= semiround) {				// Forerunner
         	timeFont = Gfx.FONT_NUMBER_MEDIUM ;
         	offsetTime = screenHeight - 50;
         	offsetHeight = 55;
@@ -188,7 +196,7 @@ class FatBoyFunView extends Ui.WatchFace {
         	activityLen = 75;
         	offsetHeart = screenWidth-140;
         }
-        else if (screenHeight <= 205) {				// vivoactive HR
+        else if (screenHeight <= rectangle) {				// vivoactive HR
         	timeFont = Gfx.FONT_NUMBER_MEDIUM ;
         	offsetTime = screenHeight - 50;
         	offsetHeight = 75;
@@ -206,6 +214,28 @@ class FatBoyFunView extends Ui.WatchFace {
         	activityLen = 90;
         	offsetHeart = screenWidth-140;
         }
+        
+        var dateProp = App.getApp().getProperty("PROP_DATE_FORMAT");
+		if (dateProp == null || dateProp.equals("")) {
+			dateProp = 0;
+		}
+		dateProp = dateProp.toNumber();
+		if (dateProp == 0) {
+			dateStr = Lang.format("$1$ $2$ $3$", [info.day_of_week, info.day, info.month]);
+		}
+		if (dateProp == 1) {
+			dateStr = Lang.format("$1$.$2$", [info.day, infoShort.month]);
+		}
+		if (dateProp == 2) {
+			dateStr = Lang.format("$1$.$2$.$3$", [info.day, infoShort.month, info.year]);
+		}
+		if (dateProp == 3) {
+			dateStr = Lang.format("$2$/$1$", [info.day, infoShort.month]);
+		}
+		if (dateProp == 4) {
+			dateStr = Lang.format("$2$/$1$/$3$", [info.day, infoShort.month, info.year]);
+		}
+		
         activityBarLen = moveBarLevelRange ? (activityLen*(moveBarLevel.toDouble()/moveBarLevelRange.toDouble())).toNumber() : 0;
         
     	if (stepsBarLen > progressBarLen) {		// Limit bar to 100%

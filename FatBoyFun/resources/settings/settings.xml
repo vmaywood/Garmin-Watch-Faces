@@ -1,0 +1,11 @@
+<settings>
+	<setting propertyKey="@Properties.PROP_DATE_FORMAT" title="@Strings.dateFormat">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.dayddmon</listEntry>
+			<listEntry value="1">@Strings.ddDotmm</listEntry>
+			<listEntry value="2">@Strings.ddDotmmDotyyyy</listEntry>
+			<listEntry value="3">@Strings.mmSlashdd</listEntry>
+			<listEntry value="4">@Strings.mmSlashddSlashyyyy</listEntry>
+		</settingConfig>
+	</setting>
+</settings>

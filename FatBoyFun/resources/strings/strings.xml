@@ -1,3 +1,9 @@
 <strings>
     <string id="AppName">FatBoyFun</string>
+    <string id="dateFormat">Date format</string>
+    <string id="dayddmon">day dd mon</string>
+    <string id="ddDotmm">dd.mm</string>
+    <string id="ddDotmmDotyyyy">dd.mm.yyyy</string>
+    <string id="mmSlashdd">mm/dd</string>
+    <string id="mmSlashddSlashyyyy">mm/dd/yyyy</string>
 </strings>
