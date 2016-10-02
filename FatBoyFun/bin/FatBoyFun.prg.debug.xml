@@ -1,200 +1,202 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="21" pc="268435456" symbol="initialize"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="22" pc="268435458" symbol="initialize"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="26" pc="268435477" symbol="onLayout"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="27" pc="268435479" symbol="onLayout"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="28" pc="268435522" symbol="onLayout"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="34" pc="268435566" symbol="onShow"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="38" pc="268435569" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="39" pc="268435571" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="40" pc="268435588" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="41" pc="268435619" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="42" pc="268435650" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="43" pc="268435667" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="44" pc="268435684" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="45" pc="268435701" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="47" pc="268435718" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="48" pc="268435761" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="49" pc="268435790" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="50" pc="268435819" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="51" pc="268435848" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="52" pc="268435871" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="53" pc="268435894" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="54" pc="268435911" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="55" pc="268435934" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="56" pc="268435944" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="57" pc="268435954" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="58" pc="268435964" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="59" pc="268435974" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="61" pc="268435993" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="62" pc="268436003" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="63" pc="268436057" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="64" pc="268436125" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="65" pc="268436171" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="66" pc="268436224" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="67" pc="268436272" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="69" pc="268436310" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="70" pc="268436323" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="71" pc="268436333" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="72" pc="268436346" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="73" pc="268436356" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="75" pc="268436373" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="76" pc="268436383" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="77" pc="268436393" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="78" pc="268436443" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="79" pc="268436493" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="81" pc="268436543" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="82" pc="268436551" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="84" pc="268436558" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="85" pc="268436566" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="87" pc="268436573" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="88" pc="268436581" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="91" pc="268436588" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="92" pc="268436624" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="94" pc="268436636" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="95" pc="268436669" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="25" pc="268435456" symbol="initialize"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="26" pc="268435458" symbol="initialize"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="30" pc="268435477" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="31" pc="268435479" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="32" pc="268435522" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="33" pc="268435565" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="34" pc="268435584" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="35" pc="268435606" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="36" pc="268435625" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="37" pc="268435647" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="43" pc="268435683" symbol="onShow"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="47" pc="268435686" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="48" pc="268435688" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="49" pc="268435705" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="50" pc="268435736" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="51" pc="268435767" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="52" pc="268435784" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="53" pc="268435801" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="54" pc="268435818" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="56" pc="268435835" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="57" pc="268435878" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="58" pc="268435907" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="59" pc="268435936" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="60" pc="268435965" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="61" pc="268435988" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="62" pc="268436011" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="63" pc="268436028" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="64" pc="268436051" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="65" pc="268436061" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="66" pc="268436071" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="67" pc="268436081" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="68" pc="268436091" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="70" pc="268436110" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="71" pc="268436120" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="72" pc="268436174" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="73" pc="268436242" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="74" pc="268436288" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="75" pc="268436341" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="76" pc="268436389" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="78" pc="268436427" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="79" pc="268436443" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="80" pc="268436459" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="81" pc="268436509" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="82" pc="268436559" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="84" pc="268436609" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="85" pc="268436617" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="87" pc="268436624" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="88" pc="268436632" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="90" pc="268436639" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="91" pc="268436647" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="94" pc="268436654" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="95" pc="268436690" symbol="onUpdate"/>
 <entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="97" pc="268436702" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="98" pc="268436738" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="101" pc="268436795" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="102" pc="268436802" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="103" pc="268436809" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="104" pc="268436832" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="106" pc="268436848" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="107" pc="268436884" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="110" pc="268436944" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="111" pc="268436980" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="112" pc="268437037" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="114" pc="268437088" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="115" pc="268437124" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="117" pc="268437168" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="119" pc="268437185" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="120" pc="268437221" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="121" pc="268437262" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="123" pc="268437303" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="124" pc="268437339" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="126" pc="268437377" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="127" pc="268437413" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="129" pc="268437451" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="130" pc="268437487" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="136" pc="268437523" symbol="onHide"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="140" pc="268437526" symbol="onExitSleep"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="144" pc="268437529" symbol="onEnterSleep"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="158" pc="268437532" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="159" pc="268437534" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="161" pc="268437537" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="162" pc="268437548" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="162" pc="268437559" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="163" pc="268437580" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="164" pc="268437601" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="165" pc="268437611" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="168" pc="268437632" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="168" pc="268437643" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="169" pc="268437664" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="170" pc="268437685" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="171" pc="268437695" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="174" pc="268437705" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="174" pc="268437716" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="175" pc="268437737" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="176" pc="268437758" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="177" pc="268437768" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="179" pc="268437775" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="182" pc="268437779" symbol="getAge"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="183" pc="268437781" symbol="getAge"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="185" pc="268437784" symbol="getAge"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="186" pc="268437789" symbol="getAge"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="189" pc="268437799" symbol="getAge"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="191" pc="268437806" symbol="getAge"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="194" pc="268437810" symbol="getHeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="195" pc="268437812" symbol="getHeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="197" pc="268437815" symbol="getHeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="198" pc="268437820" symbol="getHeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="201" pc="268437853" symbol="getHeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="204" pc="268437874" symbol="getHeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="207" pc="268437884" symbol="getHeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="209" pc="268437891" symbol="getHeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="212" pc="268437895" symbol="getWeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="213" pc="268437897" symbol="getWeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="215" pc="268437900" symbol="getWeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="216" pc="268437905" symbol="getWeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="219" pc="268437929" symbol="getWeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="222" pc="268437950" symbol="getWeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="225" pc="268437960" symbol="getWeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="227" pc="268437967" symbol="getWeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="229" pc="268437971" symbol="maleEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="230" pc="268437973" symbol="maleEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="232" pc="268438019" symbol="femaleEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="233" pc="268438021" symbol="femaleEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="239" pc="268438067" symbol="calculateEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="240" pc="268438069" symbol="calculateEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="242" pc="268438072" symbol="calculateEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="243" pc="268438083" symbol="calculateEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="247" pc="268438120" symbol="calculateEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="250" pc="268438146" symbol="calculateEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="252" pc="268438197" symbol="calculateEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="255" pc="268438201" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="256" pc="268438203" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="258" pc="268438206" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="259" pc="268438235" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="262" pc="268438245" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="264" pc="268438258" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="265" pc="268438269" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="268" pc="268438359" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="271" pc="268438433" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="274" pc="268438523" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="277" pc="268438597" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="280" pc="268438676" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="282" pc="268438752" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="285" pc="268438756" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="286" pc="268438758" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="288" pc="268438766" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="290" pc="268438779" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="291" pc="268438793" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="292" pc="268438813" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="293" pc="268438829" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="294" pc="268438842" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="295" pc="268438858" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="296" pc="268438874" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="297" pc="268438887" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="300" pc="268438920" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="301" pc="268438940" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="302" pc="268438956" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="303" pc="268438969" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="304" pc="268438985" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="305" pc="268439001" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="306" pc="268439014" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="309" pc="268439047" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="310" pc="268439067" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="311" pc="268439083" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="312" pc="268439096" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="313" pc="268439112" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="314" pc="268439128" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="315" pc="268439141" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="318" pc="268439160" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="319" pc="268439180" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="320" pc="268439196" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="321" pc="268439209" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="322" pc="268439225" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="323" pc="268439241" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="324" pc="268439254" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="326" pc="268439270" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunApp.mc" lineNum="5" pc="268439274" symbol="initialize"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunApp.mc" lineNum="6" pc="268439276" symbol="initialize"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunApp.mc" lineNum="10" pc="268439295" symbol="onStart"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunApp.mc" lineNum="14" pc="268439298" symbol="onStop"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunApp.mc" lineNum="18" pc="268439301" symbol="getInitialView"/>
-<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunApp.mc" lineNum="19" pc="268439303" symbol="getInitialView"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="98" pc="268436741" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="100" pc="268436780" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="101" pc="268436816" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="104" pc="268436879" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="105" pc="268436886" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="106" pc="268436893" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="107" pc="268436916" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="109" pc="268436932" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="110" pc="268436968" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="113" pc="268437034" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="114" pc="268437070" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="115" pc="268437133" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="117" pc="268437190" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="118" pc="268437226" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="120" pc="268437288" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="122" pc="268437305" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="123" pc="268437341" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="124" pc="268437388" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="126" pc="268437435" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="127" pc="268437471" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="129" pc="268437515" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="130" pc="268437551" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="132" pc="268437595" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="133" pc="268437631" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="139" pc="268437679" symbol="onHide"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="143" pc="268437682" symbol="onExitSleep"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="147" pc="268437685" symbol="onEnterSleep"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="161" pc="268437688" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="162" pc="268437690" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="164" pc="268437693" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="165" pc="268437704" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="165" pc="268437715" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="166" pc="268437736" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="167" pc="268437757" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="168" pc="268437767" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="171" pc="268437788" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="171" pc="268437799" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="172" pc="268437820" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="173" pc="268437841" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="174" pc="268437851" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="177" pc="268437861" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="177" pc="268437872" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="178" pc="268437893" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="179" pc="268437914" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="180" pc="268437924" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="182" pc="268437931" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="185" pc="268437935" symbol="getAge"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="186" pc="268437937" symbol="getAge"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="188" pc="268437940" symbol="getAge"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="189" pc="268437945" symbol="getAge"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="192" pc="268437955" symbol="getAge"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="194" pc="268437962" symbol="getAge"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="197" pc="268437966" symbol="getHeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="198" pc="268437968" symbol="getHeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="200" pc="268437971" symbol="getHeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="201" pc="268437976" symbol="getHeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="204" pc="268438009" symbol="getHeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="207" pc="268438030" symbol="getHeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="210" pc="268438040" symbol="getHeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="212" pc="268438047" symbol="getHeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="215" pc="268438051" symbol="getWeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="216" pc="268438053" symbol="getWeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="218" pc="268438056" symbol="getWeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="219" pc="268438061" symbol="getWeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="222" pc="268438085" symbol="getWeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="225" pc="268438106" symbol="getWeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="228" pc="268438116" symbol="getWeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="230" pc="268438123" symbol="getWeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="232" pc="268438127" symbol="maleEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="233" pc="268438129" symbol="maleEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="235" pc="268438175" symbol="femaleEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="236" pc="268438177" symbol="femaleEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="242" pc="268438223" symbol="calculateEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="243" pc="268438225" symbol="calculateEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="245" pc="268438228" symbol="calculateEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="246" pc="268438239" symbol="calculateEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="250" pc="268438276" symbol="calculateEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="253" pc="268438302" symbol="calculateEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="255" pc="268438353" symbol="calculateEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="258" pc="268438357" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="259" pc="268438359" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="261" pc="268438362" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="262" pc="268438391" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="265" pc="268438401" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="267" pc="268438414" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="268" pc="268438425" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="271" pc="268438515" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="274" pc="268438589" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="277" pc="268438679" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="280" pc="268438753" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="283" pc="268438832" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="285" pc="268438908" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="288" pc="268438912" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="289" pc="268438914" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="291" pc="268438922" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="293" pc="268438935" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="294" pc="268438949" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="295" pc="268438969" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="296" pc="268438985" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="297" pc="268438998" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="298" pc="268439014" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="299" pc="268439030" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="300" pc="268439043" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="303" pc="268439076" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="304" pc="268439096" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="305" pc="268439112" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="306" pc="268439125" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="307" pc="268439141" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="308" pc="268439157" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="309" pc="268439170" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="312" pc="268439203" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="313" pc="268439223" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="314" pc="268439239" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="315" pc="268439252" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="316" pc="268439268" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="317" pc="268439284" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="318" pc="268439297" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="321" pc="268439316" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="322" pc="268439336" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="323" pc="268439352" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="324" pc="268439365" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="325" pc="268439381" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="326" pc="268439397" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="327" pc="268439410" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunView.mc" lineNum="329" pc="268439426" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunApp.mc" lineNum="5" pc="268439430" symbol="initialize"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunApp.mc" lineNum="6" pc="268439432" symbol="initialize"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunApp.mc" lineNum="10" pc="268439451" symbol="onStart"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunApp.mc" lineNum="14" pc="268439454" symbol="onStop"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunApp.mc" lineNum="18" pc="268439457" symbol="getInitialView"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FatBoyFun/source/FatBoyFunApp.mc" lineNum="19" pc="268439459" symbol="getInitialView"/>
 </pcToLineNum>
 <symbolTable>
 <entry field="true" id="8389719" symbol="round"/>
-<entry id="31" method="true" symbol="femaleEER"/>
+<entry field="true" id="8389671" symbol="screenWidth"/>
+<entry id="34" method="true" symbol="femaleEER"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="9" object="true" symbol="FatBoyFunApp"/>
 <entry field="true" id="16" symbol="dateFormat"/>
-<entry id="27" method="true" symbol="calculatePA"/>
+<entry id="30" method="true" symbol="calculatePA"/>
 <entry field="true" id="8388611" symbol="Toybox"/>
 <entry id="8388645" symbol="Time"/>
+<entry field="true" id="29" symbol="deviceSpecs"/>
 <entry id="8388770" module="true" symbol="Strings"/>
 <entry field="true" id="25" symbol="bmp"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
@@ -203,30 +205,33 @@
 <entry field="true" id="26" symbol="hrt"/>
 <entry id="8388769" module="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry id="32" method="true" symbol="calculateEER"/>
-<entry id="28" method="true" symbol="getAge"/>
+<entry id="35" method="true" symbol="calculateEER"/>
+<entry id="31" method="true" symbol="getAge"/>
 <entry field="true" id="23" symbol="semiround"/>
 <entry field="true" id="12" symbol="FatBoy"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry field="true" id="20" symbol="AppName"/>
 <entry id="8" object="true" symbol="FatBoyFunView"/>
-<entry id="30" method="true" symbol="maleEER"/>
-<entry id="33" method="true" symbol="getDateStr"/>
+<entry id="33" method="true" symbol="maleEER"/>
+<entry id="36" method="true" symbol="getDateStr"/>
+<entry field="true" id="8389672" symbol="screenHeight"/>
 <entry field="true" id="19" symbol="mmSlashddSlashyyyy"/>
 <entry field="true" id="15" symbol="ddDotmmDotyyyy"/>
 <entry field="true" id="14" symbol="LauncherIcon"/>
-<entry id="34" method="true" symbol="getDeviceSpecs"/>
+<entry id="37" method="true" symbol="getDeviceSpecs"/>
 <entry id="8389281" method="true" symbol="onStop"/>
 <entry id="8388771" module="true" symbol="Drawables"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry field="true" id="13" symbol="Heart"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
-<entry id="29" method="true" symbol="getWeight"/>
+<entry field="true" id="28" symbol="halfScreenHeight"/>
+<entry id="32" method="true" symbol="getWeight"/>
 <entry field="true" id="24" symbol="rectangle"/>
 <entry id="8389702" symbol="getHeartRateHistory"/>
 <entry id="11" module="true" symbol="Layouts"/>
 <entry field="true" id="22" symbol="square"/>
+<entry field="true" id="27" symbol="halfScreenWidth"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 <entry field="true" id="17" symbol="dayddmon"/>
 <entry field="true" id="18" symbol="mmSlashdd"/>
@@ -236,51 +241,46 @@
 <entry id="8389116" method="true" symbol="getHeight"/>
 </symbolTable>
 <localVars>
-<entry endPc="268436941" name="hrtRate" stackId="39" startPc="268436802"/>
-<entry endPc="268437522" name="screenWidth" stackId="29" startPc="268435571"/>
-<entry endPc="268437522" name="activityClass" stackId="10" startPc="268435571"/>
-<entry endPc="268437522" name="height" stackId="13" startPc="268435571"/>
-<entry endPc="268437522" name="activityLen" stackId="35" startPc="268435571"/>
-<entry endPc="268437522" name="age" stackId="12" startPc="268435571"/>
-<entry endPc="268437522" name="halfScreenWidth" stackId="30" startPc="268435571"/>
-<entry endPc="268437522" name="eer" stackId="16" startPc="268435571"/>
-<entry endPc="268437522" name="stepGoal" stackId="17" startPc="268435571"/>
-<entry endPc="268437522" name="Calories" stackId="19" startPc="268435571"/>
-<entry endPc="268437522" name="activityStr" stackId="27" startPc="268435571"/>
-<entry endPc="268437522" name="activityInfo" stackId="7" startPc="268435571"/>
-<entry endPc="268437522" name="dateStr" stackId="25" startPc="268435571"/>
-<entry endPc="268437522" name="clockTime" stackId="5" startPc="268435571"/>
-<entry endPc="268437522" name="pa" stackId="15" startPc="268435571"/>
-<entry endPc="268437522" name="timeStr" stackId="24" startPc="268435571"/>
-<entry endPc="268437522" name="hour" stackId="22" startPc="268435571"/>
-<entry endPc="268437522" name="activityBarLen" stackId="38" startPc="268435571"/>
-<entry endPc="268437522" name="deviceSpecs" stackId="33" startPc="268435571"/>
-<entry endPc="268437522" name="infoShort" stackId="4" startPc="268435571"/>
-<entry endPc="268437522" name="screenHeight" stackId="31" startPc="268435571"/>
-<entry endPc="268437522" name="eerStr" stackId="28" startPc="268435571"/>
-<entry endPc="268437522" name="hourDisplay" stackId="23" startPc="268435571"/>
-<entry endPc="268437522" name="steps" stackId="18" startPc="268435571"/>
-<entry endPc="268437522" name="hrtIter" stackId="9" startPc="268435571"/>
-<entry endPc="268437522" name="moveBarLevelRange" stackId="21" startPc="268435571"/>
-<entry endPc="268437522" name="progressBarLen" stackId="34" startPc="268435571"/>
-<entry endPc="268437522" name="weight" stackId="14" startPc="268435571"/>
-<entry endPc="268437522" name="stepsBarLen" stackId="36" startPc="268435571"/>
-<entry endPc="268437522" name="now" stackId="2" startPc="268435571"/>
-<entry endPc="268437522" name="caloriesBarLen" stackId="37" startPc="268435571"/>
-<entry endPc="268437522" name="stats" stackId="6" startPc="268435571"/>
-<entry endPc="268437522" name="moveBarLevel" stackId="20" startPc="268435571"/>
-<entry endPc="268437522" name="info" stackId="3" startPc="268435571"/>
-<entry endPc="268437522" name="halfScreenHeight" stackId="32" startPc="268435571"/>
-<entry endPc="268437522" name="gender" stackId="11" startPc="268435571"/>
-<entry endPc="268437522" name="batteryStr" stackId="26" startPc="268435571"/>
-<entry endPc="268437522" name="userProfile" stackId="8" startPc="268435571"/>
-<entry endPc="268437778" name="pa" stackId="3" startPc="268437534"/>
-<entry endPc="268437809" name="age" stackId="3" startPc="268437781"/>
-<entry endPc="268437894" name="heightM" stackId="3" startPc="268437812"/>
-<entry endPc="268437970" name="weightKg" stackId="3" startPc="268437897"/>
-<entry endPc="268438200" name="eer" stackId="6" startPc="268438069"/>
-<entry endPc="268438755" name="dateStr" stackId="4" startPc="268438203"/>
-<entry endPc="268439273" name="deviceSpecs" stackId="3" startPc="268438758"/>
+<entry endPc="268437031" name="hrtRate" stackId="34" startPc="268436886"/>
+<entry endPc="268437678" name="activityBarLen" stackId="33" startPc="268435688"/>
+<entry endPc="268437678" name="pa" stackId="15" startPc="268435688"/>
+<entry endPc="268437678" name="stepGoal" stackId="17" startPc="268435688"/>
+<entry endPc="268437678" name="now" stackId="2" startPc="268435688"/>
+<entry endPc="268437678" name="userProfile" stackId="8" startPc="268435688"/>
+<entry endPc="268437678" name="caloriesBarLen" stackId="32" startPc="268435688"/>
+<entry endPc="268437678" name="activityStr" stackId="27" startPc="268435688"/>
+<entry endPc="268437678" name="hour" stackId="22" startPc="268435688"/>
+<entry endPc="268437678" name="moveBarLevel" stackId="20" startPc="268435688"/>
+<entry endPc="268437678" name="hrtIter" stackId="9" startPc="268435688"/>
+<entry endPc="268437678" name="stepsBarLen" stackId="31" startPc="268435688"/>
+<entry endPc="268437678" name="activityLen" stackId="30" startPc="268435688"/>
+<entry endPc="268437678" name="Calories" stackId="19" startPc="268435688"/>
+<entry endPc="268437678" name="dateStr" stackId="25" startPc="268435688"/>
+<entry endPc="268437678" name="weight" stackId="14" startPc="268435688"/>
+<entry endPc="268437678" name="clockTime" stackId="5" startPc="268435688"/>
+<entry endPc="268437678" name="age" stackId="12" startPc="268435688"/>
+<entry endPc="268437678" name="gender" stackId="11" startPc="268435688"/>
+<entry endPc="268437678" name="height" stackId="13" startPc="268435688"/>
+<entry endPc="268437678" name="eerStr" stackId="28" startPc="268435688"/>
+<entry endPc="268437678" name="timeStr" stackId="24" startPc="268435688"/>
+<entry endPc="268437678" name="moveBarLevelRange" stackId="21" startPc="268435688"/>
+<entry endPc="268437678" name="steps" stackId="18" startPc="268435688"/>
+<entry endPc="268437678" name="activityClass" stackId="10" startPc="268435688"/>
+<entry endPc="268437678" name="eer" stackId="16" startPc="268435688"/>
+<entry endPc="268437678" name="info" stackId="3" startPc="268435688"/>
+<entry endPc="268437678" name="progressBarLen" stackId="29" startPc="268435688"/>
+<entry endPc="268437678" name="batteryStr" stackId="26" startPc="268435688"/>
+<entry endPc="268437678" name="hourDisplay" stackId="23" startPc="268435688"/>
+<entry endPc="268437678" name="activityInfo" stackId="7" startPc="268435688"/>
+<entry endPc="268437678" name="infoShort" stackId="4" startPc="268435688"/>
+<entry endPc="268437678" name="stats" stackId="6" startPc="268435688"/>
+<entry endPc="268437934" name="pa" stackId="3" startPc="268437690"/>
+<entry endPc="268437965" name="age" stackId="3" startPc="268437937"/>
+<entry endPc="268438050" name="heightM" stackId="3" startPc="268437968"/>
+<entry endPc="268438126" name="weightKg" stackId="3" startPc="268438053"/>
+<entry endPc="268438356" name="eer" stackId="6" startPc="268438225"/>
+<entry endPc="268438911" name="dateStr" stackId="4" startPc="268438359"/>
+<entry endPc="268439429" name="deviceSpecs" stackId="3" startPc="268438914"/>
 </localVars>
 <annotations/>
 <functions>

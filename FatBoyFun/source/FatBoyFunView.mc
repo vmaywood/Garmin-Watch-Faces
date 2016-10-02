@@ -13,10 +13,14 @@ class FatBoyFunView extends Ui.WatchFace {
 	const square = 148;
 	const semiround = 180;
 	const rectangle = 205;
-	const round = 218;
-	
-	var bmp;
-	var hrt;	
+	const round = 218;	
+	var bmp = null;
+	var hrt = null;	
+	var screenWidth = null;
+    var halfScreenWidth = null;
+    var screenHeight = null;
+    var halfScreenHeight = null;   
+    var deviceSpecs = null;  
 
     function initialize() {
         WatchFace.initialize();
@@ -26,6 +30,11 @@ class FatBoyFunView extends Ui.WatchFace {
     function onLayout(dc) {
         bmp = Ui.loadResource(Rez.Drawables.FatBoy);
         hrt = Ui.loadResource(Rez.Drawables.Heart);
+        screenWidth = dc.getWidth();
+        halfScreenWidth = screenWidth/2;
+        screenHeight = dc.getHeight();
+        halfScreenHeight = screenHeight/2;     
+        deviceSpecs = getDeviceSpecs(screenHeight, screenWidth);   
     }
 
     //! Called when this View is brought to the foreground. Restore
@@ -65,12 +74,6 @@ class FatBoyFunView extends Ui.WatchFace {
         var batteryStr = Lang.format("$1$%", [stats.battery.toNumber()]);
         var activityStr = Lang.format("$1$/$2$", [steps, stepGoal]);
         var eerStr = Lang.format("eer $1$", [eer]);  
-              
-        var screenWidth = dc.getWidth();
-        var halfScreenWidth = screenWidth/2;
-        var screenHeight = dc.getHeight();
-        var halfScreenHeight = screenHeight/2;     
-        var deviceSpecs = getDeviceSpecs(screenHeight, screenWidth);   
 		
 		var progressBarLen = deviceSpecs["progressBarLen"];
 		var activityLen = deviceSpecs["activityLen"];
