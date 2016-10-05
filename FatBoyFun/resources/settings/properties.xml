@@ -1,3 +1,4 @@
 <properties>
 	<property id="PROP_DATE_FORMAT" type="number">0</property>
+	<property id="PROP_TIME_FORMAT" type="number">0</property>
 </properties>

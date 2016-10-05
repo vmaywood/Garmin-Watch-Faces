@@ -14,6 +14,10 @@ class FatBoyFunView extends Ui.WatchFace {
 	const semiround = 180;
 	const rectangle = 205;
 	const round = 218;	
+	const zones = [	'Y','X','W','V','U','T','S','R','Q','P','O','N',
+					'Z',
+					'A','B','C','D','E','F','G','H','I','K','L','M'
+	];
 	var bmp = null;
 	var hrt = null;	
 	var screenWidth = null;
@@ -66,11 +70,8 @@ class FatBoyFunView extends Ui.WatchFace {
         var Calories = activityInfo.calories;
         var moveBarLevel = activityInfo.moveBarLevel;
         var moveBarLevelRange = activityInfo.MOVE_BAR_LEVEL_MAX-activityInfo.MOVE_BAR_LEVEL_MIN;      
-        
-        var hour = clockTime.hour;        
-        var hourDisplay = (!Sys.getDeviceSettings().is24Hour && hour > 12) ? hour%12 : hour;
-        var timeStr = Lang.format("$1$:$2$", [hourDisplay, clockTime.min.format("%02d")]);
-        var dateStr = getDateStr(App.getApp().getProperty("PROP_DATE_FORMAT"), info, infoShort);	
+
+        var dateStr = getDateStr(info, infoShort);	
         var batteryStr = Lang.format("$1$%", [stats.battery.toNumber()]);
         var activityStr = Lang.format("$1$/$2$", [steps, stepGoal]);
         var eerStr = Lang.format("eer $1$", [eer]);  
@@ -114,8 +115,12 @@ class FatBoyFunView extends Ui.WatchFace {
 		dc.drawText (50, deviceSpecs["offsetHeight"]-20, Gfx.FONT_TINY, batteryStr, Gfx.TEXT_JUSTIFY_CENTER);
 		dc.drawText (50, deviceSpecs["offsetHeight"], Gfx.FONT_TINY, dateStr, Gfx.TEXT_JUSTIFY_CENTER);
 		
-		dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT);             
-        dc.drawText (halfScreenWidth, deviceSpecs["offsetTime"], deviceSpecs["timeFont"], timeStr, Gfx.TEXT_JUSTIFY_CENTER);         
+		dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT);   
+		var timeElements = getTimeStr();          
+        dc.drawText (halfScreenWidth, deviceSpecs["offsetTime"], deviceSpecs["timeFont"], timeElements[0], Gfx.TEXT_JUSTIFY_CENTER);         
+		if (timeElements[1]) {
+		        dc.drawText (deviceSpecs["offsetZone"], deviceSpecs["offsetTime"], Gfx.FONT_MEDIUM, timeElements[1], Gfx.TEXT_JUSTIFY_CENTER);         
+		}
 
  		dc.setPenWidth(1);
  		
@@ -255,7 +260,46 @@ class FatBoyFunView extends Ui.WatchFace {
         return eer;
     }
     
-    function getDateStr (dateProp, info, infoShort) {
+    function getTimeStr () {
+    	var timeProp = App.getApp().getProperty("PROP_TIME_FORMAT");
+        var clockTime = Sys.getClockTime();
+        var hour = clockTime.hour;       
+        var min = clockTime.min; 
+        var timeStr = null;
+        var utcOffset = null;
+        var zone = null;
+
+    	if (timeProp == null || timeProp.equals("")) {
+			timeProp = 0;
+		}
+		else {
+			timeProp = timeProp.toNumber();
+		}
+		Sys.print ("Time property = " + timeProp);
+        
+		
+		if (timeProp == 1) {
+        	timeStr = Lang.format("$1$$2$", [hour.format("%02d"), min.format("%02d")]);
+        }
+        else if (timeProp == 2) {
+            utcOffset = 12 + (clockTime.timeZoneOffset / 3600);
+            zone = zones[utcOffset];
+        	timeStr = Lang.format("$1$$2$", [hour.format("%02d"), min.format("%02d")]);
+        }
+		else { // Default to 0
+			if (!Sys.getDeviceSettings().is24Hour) {
+        		timeStr = Lang.format("$1$:$2$", [(hour%12), min.format("%02d")]);
+        	}
+        	else {
+        	    timeStr = Lang.format("$1$:$2$", [hour.format("%02d"), min.format("%02d")]);
+        	}
+        }
+        
+        return [timeStr, zone];
+    }
+    
+    function getDateStr (info, infoShort) {
+    	var dateProp = App.getApp().getProperty("PROP_DATE_FORMAT");
     	var dateStr = null;
     	
     	if (dateProp == null || dateProp.equals("")) {
@@ -264,10 +308,9 @@ class FatBoyFunView extends Ui.WatchFace {
 		else {
 			dateProp = dateProp.toNumber();
 		}
-		if (dateProp == 0) {
-			dateStr = Lang.format("$1$ $2$ $3$", [info.day_of_week, info.day, info.month]);
-		}
-		else if (dateProp == 1) {
+		Sys.print ("Date property = " + dateProp);
+
+		if (dateProp == 1) {
 			dateStr = Lang.format("$1$.$2$", [info.day, infoShort.month]);
 		}
 		else if (dateProp == 2) {
@@ -293,6 +336,7 @@ class FatBoyFunView extends Ui.WatchFace {
 	    if (screenHeight <= square) {					// Epix, Forerunner 920XT
         	deviceSpecs["timeFont"] = Gfx.FONT_MEDIUM;
         	deviceSpecs["offsetTime"] = screenHeight - 28;
+        	deviceSpecs["offsetZone"] = screenWidth - 60;
         	deviceSpecs["offsetHeight"] = 50;
         	deviceSpecs["offsetHeightActivity"] = screenHeight-5;
         	deviceSpecs["offsetWidthActivity"] = screenWidth-125;
@@ -302,6 +346,7 @@ class FatBoyFunView extends Ui.WatchFace {
         else if (screenHeight <= semiround) {				// Forerunner
         	deviceSpecs["timeFont"] = Gfx.FONT_NUMBER_MEDIUM ;
         	deviceSpecs["offsetTime"] = screenHeight - 50;
+        	deviceSpecs["offsetZone"] = screenWidth - 50;
         	deviceSpecs["offsetHeight"] = 55;
         	deviceSpecs["offsetHeightActivity"] = screenHeight-5;
         	deviceSpecs["offsetWidthActivity"] = screenWidth-145;
@@ -311,6 +356,7 @@ class FatBoyFunView extends Ui.WatchFace {
         else if (screenHeight <= rectangle) {				// vivoactive HR
         	deviceSpecs["timeFont"] = Gfx.FONT_NUMBER_MEDIUM ;
         	deviceSpecs["offsetTime"] = screenHeight - 50;
+        	deviceSpecs["offsetZone"] = screenWidth - 28;
         	deviceSpecs["offsetHeight"] = 75;
         	deviceSpecs["offsetHeightActivity"] = screenHeight-5;
         	deviceSpecs["offsetWidthActivity"] = screenWidth-115;
@@ -320,6 +366,7 @@ class FatBoyFunView extends Ui.WatchFace {
         else {									// fenix, D2 Bravo
         	deviceSpecs["timeFont"] = Gfx.FONT_NUMBER_HOT;
         	deviceSpecs["offsetTime"] = screenHeight - 90;
+        	deviceSpecs["offsetZone"] = screenWidth - 45;
         	deviceSpecs["offsetHeight"] = 65;
         	deviceSpecs["offsetHeightActivity"] = screenHeight-15;
         	deviceSpecs["offsetWidthActivity"] = screenWidth-155;

@@ -6,4 +6,8 @@
     <string id="ddDotmmDotyyyy">dd.mm.yyyy</string>
     <string id="mmSlashdd">mm/dd</string>
     <string id="mmSlashddSlashyyyy">mm/dd/yyyy</string>
+    <string id="timeFormat">Time format</string>
+    <string id="systemTime">System(12/24)</string>
+    <string id="militaryTime">Military</string>
+    <string id="militaryTimeZ">Military+Z</string>
 </strings>

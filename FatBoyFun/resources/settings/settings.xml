@@ -8,4 +8,11 @@
 			<listEntry value="4">@Strings.mmSlashddSlashyyyy</listEntry>
 		</settingConfig>
 	</setting>
+	<setting propertyKey="@Properties.PROP_TIME_FORMAT" title="@Strings.timeFormat">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.systemTime</listEntry>
+			<listEntry value="1">@Strings.militaryTime</listEntry>
+			<listEntry value="2">@Strings.militaryTimeZ</listEntry>
+		</settingConfig>
+	</setting>
 </settings>
