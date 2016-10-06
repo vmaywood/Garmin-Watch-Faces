@@ -20,10 +20,6 @@ class FatBoyFunView extends Ui.WatchFace {
 	];
 	var bmp = null;
 	var hrt = null;	
-	var screenWidth = null;
-    var halfScreenWidth = null;
-    var screenHeight = null;
-    var halfScreenHeight = null;   
     var deviceSpecs = null;  
 
     function initialize() {
@@ -34,11 +30,7 @@ class FatBoyFunView extends Ui.WatchFace {
     function onLayout(dc) {
         bmp = Ui.loadResource(Rez.Drawables.FatBoy);
         hrt = Ui.loadResource(Rez.Drawables.Heart);
-        screenWidth = dc.getWidth();
-        halfScreenWidth = screenWidth/2;
-        screenHeight = dc.getHeight();
-        halfScreenHeight = screenHeight/2;     
-        deviceSpecs = getDeviceSpecs(screenHeight, screenWidth);   
+        deviceSpecs = getDeviceSpecs(dc);   
     }
 
     //! Called when this View is brought to the foreground. Restore
@@ -117,9 +109,9 @@ class FatBoyFunView extends Ui.WatchFace {
 		
 		dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT);   
 		var timeElements = getTimeStr();          
-        dc.drawText (halfScreenWidth, deviceSpecs["offsetTime"], deviceSpecs["timeFont"], timeElements[0], Gfx.TEXT_JUSTIFY_CENTER);         
+        dc.drawText (deviceSpecs["screenWidth"]/2, deviceSpecs["offsetTime"], deviceSpecs["timeFont"], timeElements[0], Gfx.TEXT_JUSTIFY_CENTER);         
 		if (timeElements[1]) {
-		        dc.drawText (deviceSpecs["offsetZone"], deviceSpecs["offsetTime"], Gfx.FONT_MEDIUM, timeElements[1], Gfx.TEXT_JUSTIFY_CENTER);         
+		        dc.drawText (deviceSpecs["offsetWidthZone"], deviceSpecs["offsetHeightZone"], Gfx.FONT_MEDIUM, timeElements[1], Gfx.TEXT_JUSTIFY_CENTER);         
 		}
 
  		dc.setPenWidth(1);
@@ -328,15 +320,20 @@ class FatBoyFunView extends Ui.WatchFace {
 		return dateStr;
 	}
 	
-	function getDeviceSpecs(screenHeight, screenWidth) {
+	function getDeviceSpecs(dc) {		
+		var screenWidth = dc.getWidth();
+        var screenHeight = dc.getHeight();
+        
 		var deviceSpecs = {};
-		
 		deviceSpecs["progressBarLen"] = 65;
+		deviceSpecs["screenWidth"] = screenWidth;
+		deviceSpecs["screenHeight"] = screenHeight;
 		
 	    if (screenHeight <= square) {					// Epix, Forerunner 920XT
         	deviceSpecs["timeFont"] = Gfx.FONT_MEDIUM;
         	deviceSpecs["offsetTime"] = screenHeight - 28;
-        	deviceSpecs["offsetZone"] = screenWidth - 60;
+        	deviceSpecs["offsetWidthZone"] = screenWidth - 70;
+        	deviceSpecs["offsetHeightZone"] = screenHeight - 28;
         	deviceSpecs["offsetHeight"] = 50;
         	deviceSpecs["offsetHeightActivity"] = screenHeight-5;
         	deviceSpecs["offsetWidthActivity"] = screenWidth-125;
@@ -346,7 +343,8 @@ class FatBoyFunView extends Ui.WatchFace {
         else if (screenHeight <= semiround) {				// Forerunner
         	deviceSpecs["timeFont"] = Gfx.FONT_NUMBER_MEDIUM ;
         	deviceSpecs["offsetTime"] = screenHeight - 50;
-        	deviceSpecs["offsetZone"] = screenWidth - 50;
+        	deviceSpecs["offsetWidthZone"] = screenWidth - 60;
+        	deviceSpecs["offsetHeightZone"] = screenHeight - 45;
         	deviceSpecs["offsetHeight"] = 55;
         	deviceSpecs["offsetHeightActivity"] = screenHeight-5;
         	deviceSpecs["offsetWidthActivity"] = screenWidth-145;
@@ -356,7 +354,8 @@ class FatBoyFunView extends Ui.WatchFace {
         else if (screenHeight <= rectangle) {				// vivoactive HR
         	deviceSpecs["timeFont"] = Gfx.FONT_NUMBER_MEDIUM ;
         	deviceSpecs["offsetTime"] = screenHeight - 50;
-        	deviceSpecs["offsetZone"] = screenWidth - 28;
+        	deviceSpecs["offsetWidthZone"] = screenWidth - 28;
+        	deviceSpecs["offsetHeightZone"] = screenHeight - 45;
         	deviceSpecs["offsetHeight"] = 75;
         	deviceSpecs["offsetHeightActivity"] = screenHeight-5;
         	deviceSpecs["offsetWidthActivity"] = screenWidth-115;
@@ -366,7 +365,8 @@ class FatBoyFunView extends Ui.WatchFace {
         else {									// fenix, D2 Bravo
         	deviceSpecs["timeFont"] = Gfx.FONT_NUMBER_HOT;
         	deviceSpecs["offsetTime"] = screenHeight - 90;
-        	deviceSpecs["offsetZone"] = screenWidth - 45;
+        	deviceSpecs["offsetWidthZone"] = screenWidth - 50;
+        	deviceSpecs["offsetHeightZone"] = screenHeight - 75;
         	deviceSpecs["offsetHeight"] = 65;
         	deviceSpecs["offsetHeightActivity"] = screenHeight-15;
         	deviceSpecs["offsetWidthActivity"] = screenWidth-155;
