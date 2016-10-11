@@ -19,7 +19,8 @@ class FatBoyFunView extends Ui.WatchFace {
 					'A','B','C','D','E','F','G','H','I','K','L','M'
 	];
 	var bmp = null;
-	var hrt = null;	
+	var hrtRed = null;
+	var hrtUsa = null;	
     var deviceSpecs = null;  
 
     function initialize() {
@@ -29,7 +30,8 @@ class FatBoyFunView extends Ui.WatchFace {
     //! Load your resources here
     function onLayout(dc) {
         bmp = Ui.loadResource(Rez.Drawables.FatBoy);
-        hrt = Ui.loadResource(Rez.Drawables.Heart);
+        hrtRed = Ui.loadResource(Rez.Drawables.HeartRed);
+        hrtUsa = Ui.loadResource(Rez.Drawables.HeartUsa);
         deviceSpecs = getDeviceSpecs(dc);   
     }
 
@@ -48,6 +50,9 @@ class FatBoyFunView extends Ui.WatchFace {
         var stats = Sys.getSystemStats();         
         var activityInfo = Act.getInfo();
         var userProfile = User.getProfile();   
+        var bgProp = App.getApp().getProperty("PROP_BACKGROUND_COLOR");
+        var hrtProp = App.getApp().getProperty("PROP_HEART_TYPE");
+        var eerProp = App.getApp().getProperty("PROP_EER_SHOW");
                   
         var hrtIter = (Act has :getHeartRateHistory) ? Act.getHeartRateHistory(1, true) : null;                            
         var activityClass = userProfile.activityClass ? userProfile.activityClass : 20;	// Default to low activity
@@ -84,29 +89,55 @@ class FatBoyFunView extends Ui.WatchFace {
     		activityBarLen = activityLen;
     	}
         
-        dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);
-        dc.clear();
-        
-        dc.drawBitmap(deviceSpecs["offsetHeart"], 5, hrt);
-        dc.drawBitmap(0, deviceSpecs["offsetHeight"], bmp); 
+        // Draw the engine on chosen background       
+        if (bgProp == null || bgProp.equals("") || bgProp == 0)	{
+        	bgProp = 0;
+        	dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);
+        }
+		else {										
+			bgProp = bgProp.toNumber();		
+			dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);
+		}       
+        dc.clear();    
+        dc.drawBitmap(0, deviceSpecs["offsetHeight"], bmp);  		 	  		
    		
-   		dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);	
-   		dc.drawText (10, deviceSpecs["offsetHeight"]+65, Gfx.FONT_SYSTEM_XTINY, eerStr, Gfx.TEXT_JUSTIFY_LEFT);  	  		
-   		
- 		// Get most recent heart rate from history
+   		// Get most recent heart rate from history and display   		 		
+   		if (hrtProp == null || hrtProp.equals("")) {
+   			hrtProp = 0; 
+   		}
+		else {
+			hrtProp = hrtProp.toNumber(); 
+		}		
         if (hrtIter != null) {
         	var hrtRate = "---";		// Default display if no heart rate available
         	if (hrtIter.getMax() != hrtIter.INVALID_HR_SAMPLE) {
         		hrtRate = hrtIter.getMax();
-        	}       	 		
- 			dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);	
- 			dc.drawText (deviceSpecs["offsetHeart"]+30, 10, Gfx.FONT_LARGE, hrtRate, Gfx.TEXT_JUSTIFY_CENTER);		
+        	}
+        	dc.setColor(Gfx.COLOR_BLACK,  Gfx.COLOR_TRANSPARENT);
+        	if (hrtProp == 0)		{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtRed); }
+        	else if (hrtProp == 1)	{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtUsa); }
+        	else if (hrtProp == 2)	{ dc.setColor(Gfx.COLOR_DK_RED, Gfx.COLOR_TRANSPARENT); }	// No image
+        	
+ 			dc.drawText (deviceSpecs["offsetHeart"]+33, 6, Gfx.FONT_LARGE, hrtRate, Gfx.TEXT_JUSTIFY_CENTER);		
         }
         
-        dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+        // Display EER
+        if (eerProp == null || eerProp.equals("") || eerProp == 0) {	// Default is to show eer
+        	dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);	
+   			dc.drawText (10, deviceSpecs["offsetHeight"]+65, Gfx.FONT_SYSTEM_XTINY, eerStr, Gfx.TEXT_JUSTIFY_LEFT); 
+   		}
+        
+        // Display battery and date
+        if (bgProp == 0) {
+        	dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+        }
+        else {
+        	dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
+        }              
 		dc.drawText (50, deviceSpecs["offsetHeight"]-20, Gfx.FONT_TINY, batteryStr, Gfx.TEXT_JUSTIFY_CENTER);
 		dc.drawText (50, deviceSpecs["offsetHeight"], Gfx.FONT_TINY, dateStr, Gfx.TEXT_JUSTIFY_CENTER);
 		
+		// Display time
 		dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT);   
 		var timeElements = getTimeStr();          
         dc.drawText (deviceSpecs["screenWidth"]/2, deviceSpecs["offsetTime"], deviceSpecs["timeFont"], timeElements[0], Gfx.TEXT_JUSTIFY_CENTER);         
@@ -114,6 +145,7 @@ class FatBoyFunView extends Ui.WatchFace {
 		        dc.drawText (deviceSpecs["offsetWidthZone"], deviceSpecs["offsetHeightZone"], Gfx.FONT_MEDIUM, timeElements[1], Gfx.TEXT_JUSTIFY_CENTER);         
 		}
 
+		// Display progress bars
  		dc.setPenWidth(1);
  		
 		dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);	// Black container for bars
@@ -266,10 +298,7 @@ class FatBoyFunView extends Ui.WatchFace {
 		}
 		else {
 			timeProp = timeProp.toNumber();
-		}
-		Sys.print ("Time property = " + timeProp);
-        
-		
+		}		
 		if (timeProp == 1) {
         	timeStr = Lang.format("$1$$2$", [hour.format("%02d"), min.format("%02d")]);
         }
@@ -300,7 +329,6 @@ class FatBoyFunView extends Ui.WatchFace {
 		else {
 			dateProp = dateProp.toNumber();
 		}
-		Sys.print ("Date property = " + dateProp);
 
 		if (dateProp == 1) {
 			dateStr = Lang.format("$1$.$2$", [info.day, infoShort.month]);
@@ -338,7 +366,7 @@ class FatBoyFunView extends Ui.WatchFace {
         	deviceSpecs["offsetHeightActivity"] = screenHeight-5;
         	deviceSpecs["offsetWidthActivity"] = screenWidth-125;
         	deviceSpecs["activityLen"] = 45;
-        	deviceSpecs["offsetHeart"] = screenWidth-130;
+        	deviceSpecs["offsetHeart"] = screenWidth-135;
         }
         else if (screenHeight <= semiround) {				// Forerunner
         	deviceSpecs["timeFont"] = Gfx.FONT_NUMBER_MEDIUM ;
@@ -349,7 +377,7 @@ class FatBoyFunView extends Ui.WatchFace {
         	deviceSpecs["offsetHeightActivity"] = screenHeight-5;
         	deviceSpecs["offsetWidthActivity"] = screenWidth-145;
         	deviceSpecs["activityLen"] = 75;
-        	deviceSpecs["offsetHeart"] = screenWidth-140;
+        	deviceSpecs["offsetHeart"] = screenWidth-145;
         }
         else if (screenHeight <= rectangle) {				// vivoactive HR
         	deviceSpecs["timeFont"] = Gfx.FONT_NUMBER_MEDIUM ;
@@ -360,7 +388,7 @@ class FatBoyFunView extends Ui.WatchFace {
         	deviceSpecs["offsetHeightActivity"] = screenHeight-5;
         	deviceSpecs["offsetWidthActivity"] = screenWidth-115;
         	deviceSpecs["activityLen"] = 80;
-        	deviceSpecs["offsetHeart"] = screenWidth-100;
+        	deviceSpecs["offsetHeart"] = screenWidth-105;
         }
         else {									// fenix, D2 Bravo
         	deviceSpecs["timeFont"] = Gfx.FONT_NUMBER_HOT;
@@ -371,7 +399,7 @@ class FatBoyFunView extends Ui.WatchFace {
         	deviceSpecs["offsetHeightActivity"] = screenHeight-15;
         	deviceSpecs["offsetWidthActivity"] = screenWidth-155;
         	deviceSpecs["activityLen"] = 90;
-        	deviceSpecs["offsetHeart"] = screenWidth-140;
+        	deviceSpecs["offsetHeart"] = screenWidth-145;
         }
         return deviceSpecs;
 	}

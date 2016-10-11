@@ -15,4 +15,23 @@
 			<listEntry value="2">@Strings.militaryTimeZ</listEntry>
 		</settingConfig>
 	</setting>
+	<setting propertyKey="@Properties.PROP_BACKGROUND_COLOR" title="@Strings.backgroundColor">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.blackBackground</listEntry>
+			<listEntry value="1">@Strings.whiteBackground</listEntry>
+		</settingConfig>
+	</setting>
+	<setting propertyKey="@Properties.PROP_HEART_TYPE" title="@Strings.heartType">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.red</listEntry>
+			<listEntry value="1">@Strings.usa</listEntry>
+			<listEntry value="2">@Strings.none</listEntry>
+		</settingConfig>
+	</setting>
+	<setting propertyKey="@Properties.PROP_EER_SHOW" title="@Strings.eerShow">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.eerYes</listEntry>
+			<listEntry value="1">@Strings.eerNo</listEntry>
+		</settingConfig>
+	</setting>
 </settings>

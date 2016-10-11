@@ -10,4 +10,14 @@
     <string id="systemTime">System(12/24)</string>
     <string id="militaryTime">Military</string>
     <string id="militaryTimeZ">Military+Z</string>
+    <string id="backgroundColor">Background Color</string>
+    <string id="blackBackground">Black</string>
+    <string id="whiteBackground">White</string>
+    <string id="heartType">Heart</string>
+    <string id="red">Red</string>
+    <string id="usa">USA</string>
+    <string id="none">None</string>
+    <string id="eerShow">Show EER</string>
+    <string id="eerYes">Yes</string>
+    <string id="eerNo">No</string>
 </strings>
