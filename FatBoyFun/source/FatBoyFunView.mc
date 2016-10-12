@@ -348,6 +348,7 @@ class FatBoyFunView extends Ui.WatchFace {
 		return dateStr;
 	}
 	
+	// Based on device width and height, configure locations and sizes
 	function getDeviceSpecs(dc) {		
 		var screenWidth = dc.getWidth();
         var screenHeight = dc.getHeight();
