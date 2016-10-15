@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="/Users/victormaywood/Documents/src/git/FBMotorcycleSide/source/FBMotorcycleSideView.mc" lineNum="8" pc="268435456" symbol="initialize"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FBMotorcycleSide/source/FBMotorcycleSideView.mc" lineNum="9" pc="268435458" symbol="initialize"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FBMotorcycleSide/source/FBMotorcycleSideView.mc" lineNum="13" pc="268435477" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FBMotorcycleSide/source/FBMotorcycleSideView.mc" lineNum="14" pc="268435479" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FBMotorcycleSide/source/FBMotorcycleSideView.mc" lineNum="20" pc="268435517" symbol="onShow"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FBMotorcycleSide/source/FBMotorcycleSideView.mc" lineNum="24" pc="268435520" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FBMotorcycleSide/source/FBMotorcycleSideView.mc" lineNum="26" pc="268435522" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FBMotorcycleSide/source/FBMotorcycleSideView.mc" lineNum="27" pc="268435539" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FBMotorcycleSide/source/FBMotorcycleSideView.mc" lineNum="28" pc="268435613" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FBMotorcycleSide/source/FBMotorcycleSideView.mc" lineNum="29" pc="268435637" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FBMotorcycleSide/source/FBMotorcycleSideView.mc" lineNum="32" pc="268435651" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FBMotorcycleSide/source/FBMotorcycleSideView.mc" lineNum="38" pc="268435672" symbol="onHide"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FBMotorcycleSide/source/FBMotorcycleSideView.mc" lineNum="42" pc="268435675" symbol="onExitSleep"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FBMotorcycleSide/source/FBMotorcycleSideView.mc" lineNum="46" pc="268435678" symbol="onEnterSleep"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FBMotorcycleSide/source/FBMotorcycleSideApp.mc" lineNum="5" pc="268435681" symbol="initialize"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FBMotorcycleSide/source/FBMotorcycleSideApp.mc" lineNum="6" pc="268435683" symbol="initialize"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FBMotorcycleSide/source/FBMotorcycleSideApp.mc" lineNum="10" pc="268435702" symbol="onStart"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FBMotorcycleSide/source/FBMotorcycleSideApp.mc" lineNum="14" pc="268435705" symbol="onStop"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FBMotorcycleSide/source/FBMotorcycleSideApp.mc" lineNum="18" pc="268435708" symbol="getInitialView"/>
+<entry filename="/Users/victormaywood/Documents/src/git/FBMotorcycleSide/source/FBMotorcycleSideApp.mc" lineNum="19" pc="268435710" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="18" pc="268435748" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="20" pc="268435750" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="21" pc="268435913" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="22" pc="268435938" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="23" pc="268435990" symbol="WatchFace"/>
+<entry filename="Rez" lineNum="26" pc="268436036" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="8388611" symbol="Toybox"/>
+<entry id="8388770" module="true" symbol="Strings"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388640" symbol="Lang"/>
+<entry id="8388769" module="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="9" object="true" symbol="FBMotorcycleSideApp"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="13" symbol="AppName"/>
+<entry id="8389375" method="true" symbol="WatchFace"/>
+<entry field="true" id="12" symbol="LauncherIcon"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389065" symbol="locY"/>
+<entry id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" symbol="Drawables"/>
+<entry id="8" object="true" symbol="FBMotorcycleSideView"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry id="8389348" symbol="font"/>
+<entry id="8389347" symbol="color"/>
+<entry id="11" module="true" symbol="Layouts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8389063" symbol="identifier"/>
+<entry id="10" module="true" symbol="Menus"/>
+<entry id="8388772" module="true" symbol="Fonts"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435671" name="view" stackId="4" startPc="268435522"/>
+<entry endPc="268435671" name="timeString" stackId="3" startPc="268435522"/>
+<entry endPc="268435671" name="clockTime" stackId="2" startPc="268435522"/>
+<entry endPc="268436053" name="rez_cmp_local_bitmap_TimeLabel" stackId="2" startPc="268435750"/>
+<entry endPc="268436053" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="3" startPc="268435750"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry name="initialize" parent="FBMotorcycleSideView">
+<documentation/>
+</functionEntry>
+<functionEntry name="onLayout" parent="FBMotorcycleSideView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onShow" parent="FBMotorcycleSideView">
+<documentation/>
+</functionEntry>
+<functionEntry name="onUpdate" parent="FBMotorcycleSideView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onHide" parent="FBMotorcycleSideView">
+<documentation/>
+</functionEntry>
+<functionEntry name="onExitSleep" parent="FBMotorcycleSideView">
+<documentation/>
+</functionEntry>
+<functionEntry name="onEnterSleep" parent="FBMotorcycleSideView">
+<documentation/>
+</functionEntry>
+<functionEntry name="initialize" parent="FBMotorcycleSideApp">
+<documentation/>
+</functionEntry>
+<functionEntry name="onStart" parent="FBMotorcycleSideApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="onStop" parent="FBMotorcycleSideApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry name="getInitialView" parent="FBMotorcycleSideApp">
+<documentation/>
+</functionEntry>
+<functionEntry name="WatchFace" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+</debugInfo>
