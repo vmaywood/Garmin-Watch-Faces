@@ -1,6 +1,5 @@
 using Toybox.Application as App;
 
-
 class MotorcycleFBSideApp extends App.AppBase {
 
     function initialize() {
