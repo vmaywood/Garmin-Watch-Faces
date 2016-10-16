@@ -2,10 +2,22 @@
     <iq:application entry="MotorcycleFBSideApp" id="04C04171CA244BC9A48186638544BFDA" launcherIcon="@Drawables.LauncherIcon" minSdkVersion="1.2.1" name="@Strings.AppName" type="watchface">
 
         <iq:products>
+            <iq:product id="fr630"/>
+            <iq:product id="fr235"/>
+            <iq:product id="fr735xt"/>
+            <iq:product id="fr230"/>
+            <iq:product id="fenix3"/>
             <iq:product id="fenix3_hr"/>
+            <iq:product id="d2bravo"/>
+            <iq:product id="d2bravo_titanium"/>
+            <iq:product id="fr920xt"/>
+            <iq:product id="epix"/>
+            <iq:product id="vivoactive_hr"/>
         </iq:products>
 
         <iq:permissions>
+            <iq:uses-permission id="SensorHistory"/>
+            <iq:uses-permission id="UserProfile"/>
         </iq:permissions>
 
         <iq:languages>
