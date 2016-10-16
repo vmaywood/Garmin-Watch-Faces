@@ -3,6 +3,7 @@ using Toybox.Graphics as Gfx;
 using Toybox.System as Sys;
 using Toybox.Lang as Lang;
 
+
 class MotorcycleFBSideView extends Ui.WatchFace {
 
     function initialize() {
