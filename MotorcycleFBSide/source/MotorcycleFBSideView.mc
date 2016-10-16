@@ -122,7 +122,7 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         }
         
         // Display EER
-        if (eerProp == null || eerProp.equals("") || eerProp == 0) {	// Default is to show eer
+        if (eerProp != null && !eerProp.equals("") && eerProp == 1) {	// Default is to show eer
         	dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);	
    			dc.drawText (10, deviceSpecs["offsetHeight"]+65, Gfx.FONT_SYSTEM_XTINY, eerStr, Gfx.TEXT_JUSTIFY_LEFT); 
    		}
@@ -134,8 +134,8 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         else {
         	dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
         }              
-		dc.drawText (50, deviceSpecs["offsetHeight"]-20, Gfx.FONT_TINY, batteryStr, Gfx.TEXT_JUSTIFY_CENTER);
-		dc.drawText (50, deviceSpecs["offsetHeight"], Gfx.FONT_TINY, dateStr, Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText (deviceSpecs["offsetDate"], deviceSpecs["offsetHeight"]-20, Gfx.FONT_TINY, batteryStr, Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText (deviceSpecs["offsetDate"], deviceSpecs["offsetHeight"], Gfx.FONT_TINY, dateStr, Gfx.TEXT_JUSTIFY_CENTER);
 		
 		// Display time
 		dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT);   
@@ -361,6 +361,7 @@ class MotorcycleFBSideView extends Ui.WatchFace {
 	    if (screenHeight <= square) {					// Epix, Forerunner 920XT
         	deviceSpecs["timeFont"] = Gfx.FONT_MEDIUM;
         	deviceSpecs["offsetTime"] = screenHeight - 28;
+        	deviceSpecs["offsetDate"] = 35;
         	deviceSpecs["offsetWidthZone"] = screenWidth - 70;
         	deviceSpecs["offsetHeightZone"] = screenHeight - 28;
         	deviceSpecs["offsetHeight"] = 50;
@@ -372,6 +373,7 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         else if (screenHeight <= semiround) {				// Forerunner
         	deviceSpecs["timeFont"] = Gfx.FONT_NUMBER_MEDIUM ;
         	deviceSpecs["offsetTime"] = screenHeight - 50;
+        	deviceSpecs["offsetDate"] = 50;
         	deviceSpecs["offsetWidthZone"] = screenWidth - 60;
         	deviceSpecs["offsetHeightZone"] = screenHeight - 45;
         	deviceSpecs["offsetHeight"] = 55;
@@ -383,6 +385,7 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         else if (screenHeight <= rectangle) {				// vivoactive HR
         	deviceSpecs["timeFont"] = Gfx.FONT_NUMBER_MEDIUM ;
         	deviceSpecs["offsetTime"] = screenHeight - 50;
+        	deviceSpecs["offsetDate"] = 35;
         	deviceSpecs["offsetWidthZone"] = screenWidth - 28;
         	deviceSpecs["offsetHeightZone"] = screenHeight - 45;
         	deviceSpecs["offsetHeight"] = 75;
@@ -394,6 +397,7 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         else {									// fenix, D2 Bravo
         	deviceSpecs["timeFont"] = Gfx.FONT_NUMBER_HOT;
         	deviceSpecs["offsetTime"] = screenHeight - 90;
+        	deviceSpecs["offsetDate"] = 50;
         	deviceSpecs["offsetWidthZone"] = screenWidth - 50;
         	deviceSpecs["offsetHeightZone"] = screenHeight - 75;
         	deviceSpecs["offsetHeight"] = 65;

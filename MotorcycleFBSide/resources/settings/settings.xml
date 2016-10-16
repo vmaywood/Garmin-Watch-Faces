@@ -30,8 +30,8 @@
 	</setting>
 	<setting propertyKey="@Properties.PROP_EER_SHOW" title="@Strings.eerShow">
 		<settingConfig type="list">
-			<listEntry value="0">@Strings.eerYes</listEntry>
-			<listEntry value="1">@Strings.eerNo</listEntry>
+			<listEntry value="0">@Strings.eerNo</listEntry>
+			<listEntry value="1">@Strings.eerYes</listEntry>
 		</settingConfig>
 	</setting>
 </settings>
