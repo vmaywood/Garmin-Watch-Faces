@@ -54,7 +54,7 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         var hrtProp = App.getApp().getProperty("PROP_HEART_TYPE");
         var eerProp = App.getApp().getProperty("PROP_EER_SHOW");
                   
-        var hrtIter = (Act has :getHeartRateHistory) ? Act.getHeartRateHistory(1, true) : null;                            
+        var hrtIter = (Act has :HeartRateIterator) ? Act.getHeartRateHistory(1, true) : null;                            
         var activityClass = userProfile.activityClass ? userProfile.activityClass : 20;	// Default to low activity
         var gender = userProfile.gender ? userProfile.gender : 0;	// 0=Unknown 1=Male 2=Female
         var age = getAge(info.year, userProfile.birthYear);
@@ -99,7 +99,7 @@ class MotorcycleFBSideView extends Ui.WatchFace {
 			dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);
 		}       
         dc.clear();    
-        dc.drawBitmap(0, deviceSpecs["offsetHeight"], bmp);  		 	  		
+        dc.drawBitmap(0, deviceSpecs["YOffsetBmp"], bmp);  		 	  		
    		
    		// Get most recent heart rate from history and display   		 		
    		if (hrtProp == null || hrtProp.equals("")) {
@@ -124,7 +124,7 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         // Display EER
         if (eerProp != null && !eerProp.equals("") && eerProp == 1) {	// Default is to show eer
         	dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);	
-   			dc.drawText (10, deviceSpecs["offsetHeight"]+65, Gfx.FONT_SYSTEM_XTINY, eerStr, Gfx.TEXT_JUSTIFY_LEFT); 
+   			dc.drawText (10, deviceSpecs["YOffsetBmp"]+65, Gfx.FONT_SYSTEM_XTINY, eerStr, Gfx.TEXT_JUSTIFY_LEFT); 
    		}
         
         // Display battery and date
@@ -134,32 +134,32 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         else {
         	dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
         }              
-		dc.drawText (deviceSpecs["offsetDate"], deviceSpecs["offsetHeight"]-20, Gfx.FONT_TINY, batteryStr, Gfx.TEXT_JUSTIFY_CENTER);
-		dc.drawText (deviceSpecs["offsetDate"], deviceSpecs["offsetHeight"], Gfx.FONT_TINY, dateStr, Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText (deviceSpecs["XOffsetDate"], deviceSpecs["YOffsetBmp"]-20, Gfx.FONT_TINY, batteryStr, Gfx.TEXT_JUSTIFY_CENTER);
+		dc.drawText (deviceSpecs["XOffsetDate"], deviceSpecs["YOffsetBmp"], Gfx.FONT_TINY, dateStr, Gfx.TEXT_JUSTIFY_CENTER);
 		
 		// Display time
 		dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT);   
 		var timeElements = getTimeStr();          
-        dc.drawText (deviceSpecs["screenWidth"]/2, deviceSpecs["offsetTime"], deviceSpecs["timeFont"], timeElements[0], Gfx.TEXT_JUSTIFY_CENTER);         
+        dc.drawText (deviceSpecs["screenWidth"]/2, deviceSpecs["YOffsetTime"], deviceSpecs["timeFont"], timeElements[0], Gfx.TEXT_JUSTIFY_CENTER);         
 		if (timeElements[1]) {
-		        dc.drawText (deviceSpecs["offsetWidthZone"], deviceSpecs["offsetHeightZone"], Gfx.FONT_MEDIUM, timeElements[1], Gfx.TEXT_JUSTIFY_CENTER);         
+		        dc.drawText (deviceSpecs["XOffsetZone"], deviceSpecs["YOffsetZone"], deviceSpecs["zoneFont"], timeElements[1], Gfx.TEXT_JUSTIFY_CENTER);         
 		}
 
 		// Display progress bars
  		dc.setPenWidth(1);
  		
 		dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);	// Black container for bars
- 		dc.fillRectangle(3, deviceSpecs["offsetHeight"]+42, 67, 6);
-		dc.fillRectangle(12, deviceSpecs["offsetHeight"]+59, 67, 6);
+ 		dc.fillRectangle(3, deviceSpecs["YOffsetBmp"]+42, 67, 6);
+		dc.fillRectangle(12, deviceSpecs["YOffsetBmp"]+59, 67, 6);
  		
  		dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_GREEN);	// % steps to goal bar
- 		dc.fillRectangle(4, deviceSpecs["offsetHeight"]+43, stepsBarLen, 4);
+ 		dc.fillRectangle(4, deviceSpecs["YOffsetBmp"]+43, stepsBarLen, 4);
  		
  		dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_YELLOW);		// Calories to goal bar
- 		dc.fillRectangle(13, deviceSpecs["offsetHeight"]+60, caloriesBarLen, 4);
+ 		dc.fillRectangle(13, deviceSpecs["YOffsetBmp"]+60, caloriesBarLen, 4);
  		
  		dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_RED);		// Move bar
- 		dc.fillRectangle(deviceSpecs["offsetWidthActivity"], deviceSpecs["offsetHeightActivity"], activityBarLen, 4);
+ 		dc.fillRectangle(deviceSpecs["XOffsetActivity"], deviceSpecs["YOffsetActivity"], activityBarLen, 4);
     }
 
     //! Called when this View is removed from the screen. Save the
@@ -360,49 +360,58 @@ class MotorcycleFBSideView extends Ui.WatchFace {
 		
 	    if (screenHeight <= square) {					// Epix, Forerunner 920XT
         	deviceSpecs["timeFont"] = Gfx.FONT_MEDIUM;
-        	deviceSpecs["offsetTime"] = screenHeight - 28;
-        	deviceSpecs["offsetDate"] = 35;
-        	deviceSpecs["offsetWidthZone"] = screenWidth - 70;
-        	deviceSpecs["offsetHeightZone"] = screenHeight - 28;
-        	deviceSpecs["offsetHeight"] = 50;
-        	deviceSpecs["offsetHeightActivity"] = screenHeight-5;
-        	deviceSpecs["offsetWidthActivity"] = screenWidth-125;
+        	deviceSpecs["zoneFont"] = Gfx.FONT_MEDIUM;
+        	deviceSpecs["YOffsetBmp"] = 45;
+        	deviceSpecs["XOffsetDate"] = 35;
+        	deviceSpecs["YOffsetTime"] = screenHeight - 30;
+        	deviceSpecs["XOffsetZone"] = screenWidth - 65;
+        	deviceSpecs["YOffsetZone"] = screenHeight - 30;
+        	deviceSpecs["YOffsetActivity"] = screenHeight-5;
+        	deviceSpecs["XOffsetActivity"] = screenWidth-125;
         	deviceSpecs["activityLen"] = 45;
         	deviceSpecs["offsetHeart"] = screenWidth-135;
+        	if (!(Act has :HeartRateIterator)) {	// Currently no square watches with heart rate, but future proof
+				deviceSpecs["YOffsetBmp"] = 35;
+				deviceSpecs["timeFont"] = Gfx.FONT_LARGE;
+				deviceSpecs["zoneFont"] = Gfx.FONT_LARGE;
+			}       		
         }
         else if (screenHeight <= semiround) {				// Forerunner
         	deviceSpecs["timeFont"] = Gfx.FONT_NUMBER_MEDIUM ;
-        	deviceSpecs["offsetTime"] = screenHeight - 50;
-        	deviceSpecs["offsetDate"] = 50;
-        	deviceSpecs["offsetWidthZone"] = screenWidth - 60;
-        	deviceSpecs["offsetHeightZone"] = screenHeight - 45;
-        	deviceSpecs["offsetHeight"] = 55;
-        	deviceSpecs["offsetHeightActivity"] = screenHeight-5;
-        	deviceSpecs["offsetWidthActivity"] = screenWidth-145;
+        	deviceSpecs["zoneFont"] = Gfx.FONT_LARGE ;
+        	deviceSpecs["YOffsetBmp"] = 55;
+        	deviceSpecs["XOffsetDate"] = 50;
+        	deviceSpecs["YOffsetTime"] = screenHeight - 50;
+        	deviceSpecs["XOffsetZone"] = screenWidth - 60;
+        	deviceSpecs["YOffsetZone"] = screenHeight - 50;
+        	deviceSpecs["YOffsetActivity"] = screenHeight-5;
+        	deviceSpecs["XOffsetActivity"] = screenWidth-145;
         	deviceSpecs["activityLen"] = 75;
         	deviceSpecs["offsetHeart"] = screenWidth-145;
         }
         else if (screenHeight <= rectangle) {				// vivoactive HR
         	deviceSpecs["timeFont"] = Gfx.FONT_NUMBER_MEDIUM ;
-        	deviceSpecs["offsetTime"] = screenHeight - 50;
-        	deviceSpecs["offsetDate"] = 35;
-        	deviceSpecs["offsetWidthZone"] = screenWidth - 28;
-        	deviceSpecs["offsetHeightZone"] = screenHeight - 45;
-        	deviceSpecs["offsetHeight"] = 75;
-        	deviceSpecs["offsetHeightActivity"] = screenHeight-5;
-        	deviceSpecs["offsetWidthActivity"] = screenWidth-115;
+        	deviceSpecs["zoneFont"] = Gfx.FONT_MEDIUM;
+        	deviceSpecs["YOffsetBmp"] = 75;
+        	deviceSpecs["XOffsetDate"] = 35;
+        	deviceSpecs["YOffsetTime"] = screenHeight - 50;
+        	deviceSpecs["XOffsetZone"] = screenWidth - 28;
+        	deviceSpecs["YOffsetZone"] = screenHeight - 45;
+        	deviceSpecs["YOffsetActivity"] = screenHeight-5;
+        	deviceSpecs["XOffsetActivity"] = screenWidth-115;
         	deviceSpecs["activityLen"] = 80;
         	deviceSpecs["offsetHeart"] = screenWidth-105;
         }
         else {									// fenix, D2 Bravo
         	deviceSpecs["timeFont"] = Gfx.FONT_NUMBER_HOT;
-        	deviceSpecs["offsetTime"] = screenHeight - 90;
-        	deviceSpecs["offsetDate"] = 50;
-        	deviceSpecs["offsetWidthZone"] = screenWidth - 50;
-        	deviceSpecs["offsetHeightZone"] = screenHeight - 75;
-        	deviceSpecs["offsetHeight"] = 65;
-        	deviceSpecs["offsetHeightActivity"] = screenHeight-15;
-        	deviceSpecs["offsetWidthActivity"] = screenWidth-155;
+        	deviceSpecs["zoneFont"] = Gfx.FONT_LARGE;
+        	deviceSpecs["YOffsetBmp"] = 65;
+        	deviceSpecs["XOffsetDate"] = 50;
+        	deviceSpecs["YOffsetTime"] = screenHeight - 90;
+        	deviceSpecs["XOffsetZone"] = screenWidth - 50;
+        	deviceSpecs["YOffsetZone"] = screenHeight - 80;
+        	deviceSpecs["YOffsetActivity"] = screenHeight-15;
+        	deviceSpecs["XOffsetActivity"] = screenWidth-155;
         	deviceSpecs["activityLen"] = 90;
         	deviceSpecs["offsetHeart"] = screenWidth-145;
         }
