@@ -3,5 +3,5 @@
 	<property id="PROP_TIME_FORMAT" type="number">0</property>
 	<property id="PROP_BACKGROUND_COLOR" type="number">0</property>
 	<property id="PROP_HEART_TYPE" type="number">0</property>
-	<property id="PROP_EER_SHOW" type="number">0</property>
+	<property id="PROP_EER_SHOW" type="number">1</property>
 </properties>

@@ -29,10 +29,16 @@ class MotorcycleFBSideView extends Ui.WatchFace {
 
     //! Load your resources here
     function onLayout(dc) {
+    	deviceSpecs = getDeviceSpecs(dc);   
         bmp = Ui.loadResource(Rez.Drawables.MotorcycleFBSide);
-        hrtRed = Ui.loadResource(Rez.Drawables.HeartRed);
-        hrtUsa = Ui.loadResource(Rez.Drawables.HeartUsa);
-        deviceSpecs = getDeviceSpecs(dc);   
+        if (deviceSpecs["watchType"] == rectangle) {
+            hrtRed = Ui.loadResource(Rez.Drawables.HeartRed56);
+        	hrtUsa = Ui.loadResource(Rez.Drawables.HeartUsa56);
+        }
+        else {
+        	hrtRed = Ui.loadResource(Rez.Drawables.HeartRed66);
+        	hrtUsa = Ui.loadResource(Rez.Drawables.HeartUsa66);
+        }
     }
 
     //! Called when this View is brought to the foreground. Restore
@@ -111,14 +117,14 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         if (hrtIter != null) {
         	var hrtRate = "---";		// Default display if no heart rate available
         	if (hrtIter.getMax() != hrtIter.INVALID_HR_SAMPLE) {
-        		hrtRate = hrtIter.getMax();
+        		hrtRate = 123;//hrtIter.getMax();
         	}
         	dc.setColor(Gfx.COLOR_BLACK,  Gfx.COLOR_TRANSPARENT);
         	if (hrtProp == 0)		{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtRed); }
         	else if (hrtProp == 1)	{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtUsa); }
         	else if (hrtProp == 2)	{ dc.setColor(Gfx.COLOR_DK_RED, Gfx.COLOR_TRANSPARENT); }	// No image
         	
- 			dc.drawText (deviceSpecs["offsetHeart"]+33, 6, Gfx.FONT_LARGE, hrtRate, Gfx.TEXT_JUSTIFY_CENTER);		
+ 			dc.drawText (deviceSpecs["offsetHeart"]+deviceSpecs["offsetHeartFont"], 6, Gfx.FONT_LARGE, hrtRate, Gfx.TEXT_JUSTIFY_CENTER);		
         }
         
         // Display EER
@@ -359,6 +365,7 @@ class MotorcycleFBSideView extends Ui.WatchFace {
 		deviceSpecs["screenHeight"] = screenHeight;
 		
 	    if (screenHeight <= square) {					// Epix, Forerunner 920XT
+	    	deviceSpecs["watchType"] = square;
         	deviceSpecs["timeFont"] = Gfx.FONT_MEDIUM;
         	deviceSpecs["zoneFont"] = Gfx.FONT_MEDIUM;
         	deviceSpecs["YOffsetBmp"] = 45;
@@ -370,6 +377,7 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         	deviceSpecs["XOffsetActivity"] = screenWidth-125;
         	deviceSpecs["activityLen"] = 45;
         	deviceSpecs["offsetHeart"] = screenWidth-135;
+        	deviceSpecs["offsetHeartFont"] = 32;
         	if (!(Act has :HeartRateIterator)) {	// Currently no square watches with heart rate, but future proof
 				deviceSpecs["YOffsetBmp"] = 35;
 				deviceSpecs["timeFont"] = Gfx.FONT_LARGE;
@@ -377,6 +385,7 @@ class MotorcycleFBSideView extends Ui.WatchFace {
 			}       		
         }
         else if (screenHeight <= semiround) {				// Forerunner
+        	deviceSpecs["watchType"] = semiround;
         	deviceSpecs["timeFont"] = Gfx.FONT_NUMBER_MEDIUM ;
         	deviceSpecs["zoneFont"] = Gfx.FONT_LARGE ;
         	deviceSpecs["YOffsetBmp"] = 55;
@@ -388,8 +397,10 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         	deviceSpecs["XOffsetActivity"] = screenWidth-145;
         	deviceSpecs["activityLen"] = 75;
         	deviceSpecs["offsetHeart"] = screenWidth-145;
+        	deviceSpecs["offsetHeartFont"] = 32;
         }
         else if (screenHeight <= rectangle) {				// vivoactive HR
+        	deviceSpecs["watchType"] = rectangle;
         	deviceSpecs["timeFont"] = Gfx.FONT_NUMBER_MEDIUM ;
         	deviceSpecs["zoneFont"] = Gfx.FONT_MEDIUM;
         	deviceSpecs["YOffsetBmp"] = 75;
@@ -401,8 +412,10 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         	deviceSpecs["XOffsetActivity"] = screenWidth-115;
         	deviceSpecs["activityLen"] = 80;
         	deviceSpecs["offsetHeart"] = screenWidth-105;
+        	deviceSpecs["offsetHeartFont"] = 26;
         }
         else {									// fenix, D2 Bravo
+        	deviceSpecs["watchType"] = round;
         	deviceSpecs["timeFont"] = Gfx.FONT_NUMBER_HOT;
         	deviceSpecs["zoneFont"] = Gfx.FONT_LARGE;
         	deviceSpecs["YOffsetBmp"] = 65;
@@ -414,6 +427,7 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         	deviceSpecs["XOffsetActivity"] = screenWidth-155;
         	deviceSpecs["activityLen"] = 90;
         	deviceSpecs["offsetHeart"] = screenWidth-145;
+        	deviceSpecs["offsetHeartFont"] = 32;
         }
         return deviceSpecs;
 	}

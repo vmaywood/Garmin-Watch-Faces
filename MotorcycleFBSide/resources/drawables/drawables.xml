@@ -1,6 +1,8 @@
 <drawables>
     <bitmap filename="launcher_icon.png" id="LauncherIcon"/>
         <bitmap id="MotorcycleFBSide" filename="motorcyclefbside.png"></bitmap>
-        <bitmap id="HeartUsa" filename="heart-usa-66.png"></bitmap>
-        <bitmap id="HeartRed" filename="heart-solid-red-66.png"></bitmap>
+        <bitmap id="HeartUsa66" filename="heart-usa-66.png"></bitmap>
+        <bitmap id="HeartRed66" filename="heart-solid-red-66.png"></bitmap>
+        <bitmap id="HeartUsa56" filename="heart-usa-56.png"></bitmap>
+        <bitmap id="HeartRed56" filename="heart-solid-red-56.png"></bitmap>
 </drawables>
