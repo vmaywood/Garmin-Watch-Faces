@@ -117,7 +117,7 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         if (hrtIter != null) {
         	var hrtRate = "---";		// Default display if no heart rate available
         	if (hrtIter.getMax() != hrtIter.INVALID_HR_SAMPLE) {
-        		hrtRate = 123;//hrtIter.getMax();
+        		hrtRate = hrtIter.getMax();
         	}
         	dc.setColor(Gfx.COLOR_BLACK,  Gfx.COLOR_TRANSPARENT);
         	if (hrtProp == 0)		{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtRed); }
