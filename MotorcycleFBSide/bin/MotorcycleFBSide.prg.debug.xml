@@ -1,381 +1,388 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="26" pc="268435456" symbol="initialize"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="27" pc="268435460" symbol="initialize"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="31" pc="268435479" symbol="onLayout"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="32" pc="268435483" symbol="onLayout"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="33" pc="268435504" symbol="onLayout"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="34" pc="268435547" symbol="onLayout"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="35" pc="268435573" symbol="onLayout"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="36" pc="268435616" symbol="onLayout"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="39" pc="268435662" symbol="onLayout"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="40" pc="268435705" symbol="onLayout"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="47" pc="268435749" symbol="onShow"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="51" pc="268435754" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="52" pc="268435758" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="53" pc="268435775" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="54" pc="268435806" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="55" pc="268435837" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="56" pc="268435854" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="57" pc="268435871" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="58" pc="268435888" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="59" pc="268435905" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="60" pc="268435936" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="61" pc="268435967" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="63" pc="268435998" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="64" pc="268436041" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="65" pc="268436070" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="66" pc="268436099" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="67" pc="268436128" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="68" pc="268436151" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="69" pc="268436174" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="70" pc="268436191" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="71" pc="268436214" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="72" pc="268436224" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="73" pc="268436234" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="74" pc="268436244" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="75" pc="268436254" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="77" pc="268436273" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="78" pc="268436290" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="79" pc="268436343" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="80" pc="268436391" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="27" pc="268435456" symbol="initialize"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="28" pc="268435460" symbol="initialize"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="32" pc="268435479" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="33" pc="268435483" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="34" pc="268435504" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="35" pc="268435547" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="36" pc="268435573" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="37" pc="268435616" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="38" pc="268435659" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="41" pc="268435705" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="42" pc="268435748" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="43" pc="268435791" symbol="onLayout"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="50" pc="268435835" symbol="onShow"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="54" pc="268435840" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="55" pc="268435844" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="56" pc="268435861" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="57" pc="268435892" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="58" pc="268435923" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="59" pc="268435940" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="60" pc="268435957" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="61" pc="268435974" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="62" pc="268435991" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="63" pc="268436022" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="64" pc="268436053" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="66" pc="268436084" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="67" pc="268436127" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="68" pc="268436156" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="69" pc="268436185" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="70" pc="268436214" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="71" pc="268436237" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="72" pc="268436260" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="73" pc="268436277" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="74" pc="268436300" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="75" pc="268436310" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="76" pc="268436320" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="77" pc="268436330" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="78" pc="268436340" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="80" pc="268436359" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="81" pc="268436376" symbol="onUpdate"/>
 <entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="82" pc="268436429" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="83" pc="268436445" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="84" pc="268436461" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="85" pc="268436511" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="86" pc="268436561" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="88" pc="268436611" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="89" pc="268436619" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="91" pc="268436626" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="92" pc="268436634" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="94" pc="268436641" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="95" pc="268436649" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="99" pc="268436656" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="100" pc="268436699" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="101" pc="268436706" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="104" pc="268436745" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="105" pc="268436758" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="107" pc="268436794" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="108" pc="268436806" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="111" pc="268436845" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="112" pc="268436874" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="115" pc="268436884" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="117" pc="268436897" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="118" pc="268436904" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="119" pc="268436911" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="120" pc="268436934" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="122" pc="268436950" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="123" pc="268436986" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="123" pc="268436997" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="124" pc="268437050" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="125" pc="268437103" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="127" pc="268437142" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="131" pc="268437217" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="132" pc="268437261" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="133" pc="268437297" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="137" pc="268437363" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="138" pc="268437374" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="141" pc="268437413" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="143" pc="268437449" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="144" pc="268437521" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="147" pc="268437587" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="148" pc="268437623" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="149" pc="268437636" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="150" pc="268437716" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="151" pc="268437727" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="155" pc="268437804" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="157" pc="268437821" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="158" pc="268437857" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="159" pc="268437904" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="161" pc="268437951" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="162" pc="268437987" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="164" pc="268438031" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="165" pc="268438067" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="167" pc="268438111" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="168" pc="268438147" symbol="onUpdate"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="174" pc="268438195" symbol="onHide"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="178" pc="268438200" symbol="onExitSleep"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="182" pc="268438205" symbol="onEnterSleep"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="196" pc="268438210" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="197" pc="268438214" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="199" pc="268438217" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="200" pc="268438228" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="200" pc="268438239" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="201" pc="268438260" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="202" pc="268438281" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="203" pc="268438291" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="206" pc="268438312" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="206" pc="268438323" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="207" pc="268438344" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="208" pc="268438365" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="209" pc="268438375" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="212" pc="268438385" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="212" pc="268438396" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="213" pc="268438417" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="214" pc="268438438" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="215" pc="268438448" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="217" pc="268438455" symbol="calculatePA"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="220" pc="268438459" symbol="getAge"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="221" pc="268438463" symbol="getAge"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="223" pc="268438466" symbol="getAge"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="224" pc="268438471" symbol="getAge"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="227" pc="268438481" symbol="getAge"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="229" pc="268438488" symbol="getAge"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="232" pc="268438492" symbol="getHeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="233" pc="268438496" symbol="getHeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="235" pc="268438499" symbol="getHeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="236" pc="268438504" symbol="getHeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="239" pc="268438537" symbol="getHeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="242" pc="268438558" symbol="getHeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="245" pc="268438568" symbol="getHeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="247" pc="268438575" symbol="getHeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="250" pc="268438579" symbol="getWeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="251" pc="268438583" symbol="getWeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="253" pc="268438586" symbol="getWeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="254" pc="268438591" symbol="getWeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="257" pc="268438615" symbol="getWeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="260" pc="268438636" symbol="getWeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="263" pc="268438646" symbol="getWeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="265" pc="268438653" symbol="getWeight"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="267" pc="268438657" symbol="maleEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="268" pc="268438661" symbol="maleEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="270" pc="268438707" symbol="femaleEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="271" pc="268438711" symbol="femaleEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="277" pc="268438757" symbol="calculateEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="278" pc="268438761" symbol="calculateEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="280" pc="268438764" symbol="calculateEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="281" pc="268438775" symbol="calculateEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="285" pc="268438812" symbol="calculateEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="288" pc="268438838" symbol="calculateEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="290" pc="268438889" symbol="calculateEER"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="293" pc="268438893" symbol="getTimeStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="294" pc="268438897" symbol="getTimeStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="295" pc="268438928" symbol="getTimeStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="296" pc="268438945" symbol="getTimeStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="297" pc="268438955" symbol="getTimeStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="298" pc="268438965" symbol="getTimeStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="299" pc="268438968" symbol="getTimeStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="300" pc="268438971" symbol="getTimeStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="302" pc="268438974" symbol="getTimeStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="303" pc="268439003" symbol="getTimeStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="306" pc="268439013" symbol="getTimeStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="308" pc="268439026" symbol="getTimeStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="309" pc="268439037" symbol="getTimeStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="312" pc="268439127" symbol="getTimeStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="313" pc="268439149" symbol="getTimeStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="314" pc="268439162" symbol="getTimeStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="317" pc="268439241" symbol="getTimeStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="318" pc="268439266" symbol="getTimeStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="321" pc="268439337" symbol="getTimeStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="325" pc="268439413" symbol="getTimeStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="328" pc="268439441" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="329" pc="268439445" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="330" pc="268439476" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="332" pc="268439479" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="333" pc="268439508" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="336" pc="268439518" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="339" pc="268439531" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="340" pc="268439542" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="343" pc="268439616" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="346" pc="268439706" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="349" pc="268439780" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="352" pc="268439859" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="354" pc="268439935" symbol="getDateStr"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="358" pc="268439939" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="359" pc="268439943" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="360" pc="268439956" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="362" pc="268439969" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="363" pc="268439977" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="364" pc="268439990" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="365" pc="268440000" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="367" pc="268440010" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="368" pc="268440024" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="369" pc="268440040" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="370" pc="268440060" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="371" pc="268440080" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="372" pc="268440093" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="373" pc="268440106" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="374" pc="268440122" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="375" pc="268440138" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="376" pc="268440154" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="377" pc="268440170" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="378" pc="268440186" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="379" pc="268440199" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="380" pc="268440215" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="381" pc="268440228" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="382" pc="268440244" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="383" pc="268440257" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="384" pc="268440277" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="388" pc="268440317" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="389" pc="268440333" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="390" pc="268440353" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="391" pc="268440373" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="392" pc="268440386" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="393" pc="268440399" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="394" pc="268440415" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="395" pc="268440431" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="396" pc="268440447" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="397" pc="268440463" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="398" pc="268440479" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="399" pc="268440492" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="400" pc="268440508" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="403" pc="268440538" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="404" pc="268440554" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="405" pc="268440574" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="406" pc="268440594" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="407" pc="268440607" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="408" pc="268440620" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="409" pc="268440636" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="410" pc="268440652" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="411" pc="268440668" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="412" pc="268440684" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="413" pc="268440700" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="414" pc="268440713" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="415" pc="268440729" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="418" pc="268440745" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="419" pc="268440761" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="420" pc="268440781" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="421" pc="268440801" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="422" pc="268440814" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="423" pc="268440827" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="424" pc="268440843" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="425" pc="268440859" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="426" pc="268440875" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="427" pc="268440891" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="428" pc="268440907" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="429" pc="268440920" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="430" pc="268440936" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="432" pc="268440949" symbol="getDeviceSpecs"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideApp.mc" lineNum="5" pc="268440953" symbol="initialize"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideApp.mc" lineNum="6" pc="268440957" symbol="initialize"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideApp.mc" lineNum="10" pc="268440976" symbol="onStart"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideApp.mc" lineNum="14" pc="268440981" symbol="onStop"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideApp.mc" lineNum="18" pc="268440986" symbol="getInitialView"/>
-<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideApp.mc" lineNum="19" pc="268440990" symbol="getInitialView"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="83" pc="268436477" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="85" pc="268436515" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="86" pc="268436531" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="87" pc="268436547" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="88" pc="268436597" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="89" pc="268436647" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="91" pc="268436697" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="92" pc="268436705" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="94" pc="268436712" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="95" pc="268436720" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="97" pc="268436727" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="98" pc="268436735" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="102" pc="268436742" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="103" pc="268436785" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="104" pc="268436792" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="107" pc="268436831" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="108" pc="268436844" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="110" pc="268436880" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="111" pc="268436892" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="114" pc="268436931" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="115" pc="268436960" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="118" pc="268436970" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="120" pc="268436983" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="121" pc="268436990" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="122" pc="268436997" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="123" pc="268437020" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="125" pc="268437036" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="126" pc="268437072" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="126" pc="268437083" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="127" pc="268437136" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="128" pc="268437189" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="129" pc="268437242" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="131" pc="268437281" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="135" pc="268437356" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="136" pc="268437400" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="137" pc="268437436" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="141" pc="268437502" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="142" pc="268437513" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="145" pc="268437552" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="147" pc="268437588" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="148" pc="268437660" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="151" pc="268437726" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="152" pc="268437762" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="153" pc="268437775" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="154" pc="268437855" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="155" pc="268437866" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="159" pc="268437943" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="161" pc="268437960" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="162" pc="268437996" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="163" pc="268438043" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="165" pc="268438090" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="166" pc="268438126" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="168" pc="268438170" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="169" pc="268438206" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="171" pc="268438250" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="172" pc="268438286" symbol="onUpdate"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="178" pc="268438334" symbol="onHide"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="182" pc="268438339" symbol="onExitSleep"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="186" pc="268438344" symbol="onEnterSleep"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="200" pc="268438349" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="201" pc="268438353" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="203" pc="268438356" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="204" pc="268438367" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="204" pc="268438378" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="205" pc="268438399" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="206" pc="268438420" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="207" pc="268438430" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="210" pc="268438451" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="210" pc="268438462" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="211" pc="268438483" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="212" pc="268438504" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="213" pc="268438514" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="216" pc="268438524" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="216" pc="268438535" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="217" pc="268438556" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="218" pc="268438577" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="219" pc="268438587" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="221" pc="268438594" symbol="calculatePA"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="224" pc="268438598" symbol="getAge"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="225" pc="268438602" symbol="getAge"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="227" pc="268438605" symbol="getAge"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="228" pc="268438610" symbol="getAge"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="231" pc="268438620" symbol="getAge"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="233" pc="268438627" symbol="getAge"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="236" pc="268438631" symbol="getHeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="237" pc="268438635" symbol="getHeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="239" pc="268438638" symbol="getHeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="240" pc="268438643" symbol="getHeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="243" pc="268438676" symbol="getHeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="246" pc="268438697" symbol="getHeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="249" pc="268438707" symbol="getHeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="251" pc="268438714" symbol="getHeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="254" pc="268438718" symbol="getWeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="255" pc="268438722" symbol="getWeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="257" pc="268438725" symbol="getWeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="258" pc="268438730" symbol="getWeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="261" pc="268438754" symbol="getWeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="264" pc="268438775" symbol="getWeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="267" pc="268438785" symbol="getWeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="269" pc="268438792" symbol="getWeight"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="271" pc="268438796" symbol="maleEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="272" pc="268438800" symbol="maleEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="274" pc="268438846" symbol="femaleEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="275" pc="268438850" symbol="femaleEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="281" pc="268438896" symbol="calculateEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="282" pc="268438900" symbol="calculateEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="284" pc="268438903" symbol="calculateEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="285" pc="268438914" symbol="calculateEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="289" pc="268438951" symbol="calculateEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="292" pc="268438977" symbol="calculateEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="294" pc="268439028" symbol="calculateEER"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="297" pc="268439032" symbol="getTimeStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="298" pc="268439036" symbol="getTimeStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="299" pc="268439067" symbol="getTimeStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="300" pc="268439084" symbol="getTimeStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="301" pc="268439094" symbol="getTimeStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="302" pc="268439104" symbol="getTimeStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="303" pc="268439107" symbol="getTimeStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="304" pc="268439110" symbol="getTimeStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="306" pc="268439113" symbol="getTimeStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="307" pc="268439142" symbol="getTimeStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="310" pc="268439152" symbol="getTimeStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="312" pc="268439165" symbol="getTimeStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="313" pc="268439176" symbol="getTimeStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="316" pc="268439266" symbol="getTimeStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="317" pc="268439288" symbol="getTimeStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="318" pc="268439301" symbol="getTimeStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="321" pc="268439380" symbol="getTimeStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="322" pc="268439405" symbol="getTimeStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="325" pc="268439476" symbol="getTimeStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="329" pc="268439552" symbol="getTimeStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="332" pc="268439580" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="333" pc="268439584" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="334" pc="268439615" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="336" pc="268439618" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="337" pc="268439647" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="340" pc="268439657" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="343" pc="268439670" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="344" pc="268439681" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="347" pc="268439755" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="350" pc="268439845" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="353" pc="268439919" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="356" pc="268439998" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="358" pc="268440074" symbol="getDateStr"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="362" pc="268440078" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="363" pc="268440082" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="364" pc="268440095" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="366" pc="268440108" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="367" pc="268440116" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="368" pc="268440129" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="369" pc="268440139" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="371" pc="268440149" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="372" pc="268440163" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="373" pc="268440179" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="374" pc="268440199" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="375" pc="268440219" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="376" pc="268440232" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="377" pc="268440245" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="378" pc="268440261" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="379" pc="268440277" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="380" pc="268440293" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="381" pc="268440309" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="382" pc="268440325" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="383" pc="268440338" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="384" pc="268440354" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="385" pc="268440367" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="386" pc="268440383" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="387" pc="268440396" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="388" pc="268440416" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="392" pc="268440456" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="393" pc="268440472" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="394" pc="268440492" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="395" pc="268440512" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="396" pc="268440525" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="397" pc="268440538" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="398" pc="268440554" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="399" pc="268440570" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="400" pc="268440586" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="401" pc="268440602" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="402" pc="268440618" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="403" pc="268440631" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="404" pc="268440647" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="407" pc="268440677" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="408" pc="268440693" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="409" pc="268440713" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="410" pc="268440733" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="411" pc="268440746" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="412" pc="268440759" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="413" pc="268440775" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="414" pc="268440791" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="415" pc="268440807" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="416" pc="268440823" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="417" pc="268440839" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="418" pc="268440852" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="419" pc="268440868" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="422" pc="268440884" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="423" pc="268440900" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="424" pc="268440920" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="425" pc="268440940" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="426" pc="268440953" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="427" pc="268440966" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="428" pc="268440982" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="429" pc="268440998" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="430" pc="268441014" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="431" pc="268441030" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="432" pc="268441046" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="433" pc="268441059" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="434" pc="268441075" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideView.mc" lineNum="436" pc="268441088" symbol="getDeviceSpecs"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideApp.mc" lineNum="5" pc="268441092" symbol="initialize"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideApp.mc" lineNum="6" pc="268441096" symbol="initialize"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideApp.mc" lineNum="10" pc="268441115" symbol="onStart"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideApp.mc" lineNum="14" pc="268441120" symbol="onStop"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideApp.mc" lineNum="18" pc="268441125" symbol="getInitialView"/>
+<entry filename="/Users/victormaywood/Documents/src/git/MotorcycleFBSide/source/MotorcycleFBSideApp.mc" lineNum="19" pc="268441129" symbol="getInitialView"/>
 </pcToLineNum>
 <symbolTable>
 <entry field="true" id="8389719" symbol="round"/>
-<entry field="true" id="50" symbol="heartType"/>
-<entry field="true" id="42" symbol="none"/>
-<entry id="22" method="true" symbol="femaleEER"/>
+<entry field="true" id="54" symbol="heartType"/>
+<entry field="true" id="45" symbol="none"/>
+<entry id="23" method="true" symbol="femaleEER"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
-<entry field="true" id="41" symbol="eerYes"/>
-<entry field="true" id="52" symbol="timeFormat"/>
-<entry field="true" id="38" symbol="dateFormat"/>
+<entry field="true" id="44" symbol="eerYes"/>
+<entry field="true" id="33" symbol="YellowLeaf66"/>
+<entry field="true" id="36" symbol="YellowLeaf56"/>
+<entry field="true" id="56" symbol="timeFormat"/>
+<entry field="true" id="41" symbol="dateFormat"/>
 <entry field="true" id="16" symbol="hrtUsa"/>
-<entry id="18" method="true" symbol="calculatePA"/>
-<entry field="true" id="29" symbol="MotorcycleFBSide"/>
+<entry id="19" method="true" symbol="calculatePA"/>
+<entry field="true" id="30" symbol="MotorcycleFBSide"/>
 <entry field="true" id="8388611" symbol="Toybox"/>
 <entry id="8388645" symbol="Time"/>
-<entry field="true" id="17" symbol="deviceSpecs"/>
+<entry field="true" id="18" symbol="deviceSpecs"/>
 <entry id="8388770" module="true" symbol="Strings"/>
-<entry field="true" id="36" symbol="usa"/>
+<entry field="true" id="39" symbol="usa"/>
 <entry field="true" id="14" symbol="bmp"/>
 <entry field="true" id="15" symbol="hrtRed"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
 <entry id="8388640" symbol="Lang"/>
-<entry field="true" id="49" symbol="red"/>
+<entry field="true" id="53" symbol="red"/>
 <entry id="8388769" module="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry id="23" method="true" symbol="calculateEER"/>
-<entry id="19" method="true" symbol="getAge"/>
+<entry id="24" method="true" symbol="calculateEER"/>
+<entry id="20" method="true" symbol="getAge"/>
 <entry field="true" id="11" symbol="semiround"/>
 <entry id="8" object="true" symbol="MotorcycleFBSideView"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="47" symbol="AppName"/>
-<entry field="true" id="46" symbol="whiteBackground"/>
-<entry id="21" method="true" symbol="maleEER"/>
-<entry id="25" method="true" symbol="getDateStr"/>
-<entry field="true" id="54" symbol="mmSlashddSlashyyyy"/>
-<entry field="true" id="35" symbol="ddDotmmDotyyyy"/>
-<entry field="true" id="34" symbol="LauncherIcon"/>
-<entry id="26" method="true" symbol="getDeviceSpecs"/>
+<entry field="true" id="51" symbol="AppName"/>
+<entry field="true" id="50" symbol="whiteBackground"/>
+<entry id="22" method="true" symbol="maleEER"/>
+<entry id="26" method="true" symbol="getDateStr"/>
+<entry field="true" id="58" symbol="mmSlashddSlashyyyy"/>
+<entry field="true" id="38" symbol="ddDotmmDotyyyy"/>
+<entry field="true" id="37" symbol="LauncherIcon"/>
+<entry id="27" method="true" symbol="getDeviceSpecs"/>
 <entry field="true" id="13" symbol="zones"/>
 <entry id="9" object="true" symbol="MotorcycleFBSideApp"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry field="true" id="37" symbol="blackBackground"/>
+<entry field="true" id="40" symbol="blackBackground"/>
 <entry id="8388771" module="true" symbol="Drawables"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
-<entry field="true" id="40" symbol="militaryTimeZ"/>
-<entry field="true" id="39" symbol="militaryTime"/>
+<entry field="true" id="43" symbol="militaryTimeZ"/>
+<entry field="true" id="42" symbol="militaryTime"/>
 <entry field="true" id="8389743" symbol="backgroundColor"/>
-<entry id="20" method="true" symbol="getWeight"/>
-<entry field="true" id="45" symbol="eerNo"/>
+<entry id="21" method="true" symbol="getWeight"/>
+<entry field="true" id="49" symbol="eerNo"/>
+<entry field="true" id="48" symbol="yellowleaf"/>
 <entry field="true" id="12" symbol="rectangle"/>
-<entry field="true" id="44" symbol="systemTime"/>
-<entry id="24" method="true" symbol="getTimeStr"/>
-<entry field="true" id="30" symbol="HeartUsa66"/>
-<entry id="28" module="true" symbol="Layouts"/>
-<entry field="true" id="32" symbol="HeartUsa56"/>
+<entry field="true" id="47" symbol="systemTime"/>
+<entry id="25" method="true" symbol="getTimeStr"/>
+<entry field="true" id="31" symbol="HeartUsa66"/>
+<entry id="29" module="true" symbol="Layouts"/>
+<entry field="true" id="34" symbol="HeartUsa56"/>
 <entry field="true" id="10" symbol="square"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry field="true" id="31" symbol="HeartRed66"/>
-<entry field="true" id="43" symbol="dayddmon"/>
-<entry field="true" id="33" symbol="HeartRed56"/>
-<entry field="true" id="51" symbol="eerShow"/>
-<entry field="true" id="53" symbol="mmSlashdd"/>
-<entry id="27" module="true" symbol="Menus"/>
-<entry field="true" id="48" symbol="ddDotmm"/>
+<entry field="true" id="32" symbol="HeartRed66"/>
+<entry field="true" id="46" symbol="dayddmon"/>
+<entry field="true" id="35" symbol="HeartRed56"/>
+<entry field="true" id="17" symbol="hrtYellowLeaf"/>
+<entry field="true" id="55" symbol="eerShow"/>
+<entry field="true" id="57" symbol="mmSlashdd"/>
+<entry id="28" module="true" symbol="Menus"/>
+<entry field="true" id="52" symbol="ddDotmm"/>
 <entry id="8388772" module="true" symbol="Fonts"/>
 <entry id="8389116" method="true" symbol="getHeight"/>
 <entry id="8389701" symbol="HeartRateIterator"/>
 </symbolTable>
 <localVars>
-<entry endPc="268437214" name="hrtRate" stackId="34" startPc="268436904"/>
-<entry endPc="268438194" name="activityBarLen" stackId="33" startPc="268435758"/>
-<entry endPc="268438194" name="pa" stackId="18" startPc="268435758"/>
-<entry endPc="268438194" name="stepGoal" stackId="20" startPc="268435758"/>
-<entry endPc="268438194" name="now" stackId="2" startPc="268435758"/>
-<entry endPc="268438194" name="userProfile" stackId="8" startPc="268435758"/>
-<entry endPc="268438194" name="caloriesBarLen" stackId="32" startPc="268435758"/>
-<entry endPc="268438194" name="activityStr" stackId="27" startPc="268435758"/>
-<entry endPc="268438194" name="moveBarLevel" stackId="23" startPc="268435758"/>
-<entry endPc="268438194" name="hrtIter" stackId="12" startPc="268435758"/>
-<entry endPc="268438194" name="stepsBarLen" stackId="31" startPc="268435758"/>
-<entry endPc="268438194" name="activityLen" stackId="30" startPc="268435758"/>
-<entry endPc="268438194" name="Calories" stackId="22" startPc="268435758"/>
-<entry endPc="268438194" name="dateStr" stackId="25" startPc="268435758"/>
-<entry endPc="268438194" name="weight" stackId="17" startPc="268435758"/>
-<entry endPc="268438194" name="eerProp" stackId="11" startPc="268435758"/>
-<entry endPc="268438194" name="clockTime" stackId="5" startPc="268435758"/>
-<entry endPc="268438194" name="age" stackId="15" startPc="268435758"/>
-<entry endPc="268438194" name="gender" stackId="14" startPc="268435758"/>
-<entry endPc="268438194" name="height" stackId="16" startPc="268435758"/>
-<entry endPc="268438194" name="eerStr" stackId="28" startPc="268435758"/>
-<entry endPc="268438194" name="moveBarLevelRange" stackId="24" startPc="268435758"/>
-<entry endPc="268438194" name="timeElements" stackId="35" startPc="268435758"/>
-<entry endPc="268438194" name="hrtProp" stackId="10" startPc="268435758"/>
-<entry endPc="268438194" name="steps" stackId="21" startPc="268435758"/>
-<entry endPc="268438194" name="activityClass" stackId="13" startPc="268435758"/>
-<entry endPc="268438194" name="eer" stackId="19" startPc="268435758"/>
-<entry endPc="268438194" name="info" stackId="3" startPc="268435758"/>
-<entry endPc="268438194" name="progressBarLen" stackId="29" startPc="268435758"/>
-<entry endPc="268438194" name="batteryStr" stackId="26" startPc="268435758"/>
-<entry endPc="268438194" name="bgProp" stackId="9" startPc="268435758"/>
-<entry endPc="268438194" name="activityInfo" stackId="7" startPc="268435758"/>
-<entry endPc="268438194" name="infoShort" stackId="4" startPc="268435758"/>
-<entry endPc="268438194" name="stats" stackId="6" startPc="268435758"/>
-<entry endPc="268438458" name="pa" stackId="3" startPc="268438214"/>
-<entry endPc="268438491" name="age" stackId="3" startPc="268438463"/>
-<entry endPc="268438578" name="heightM" stackId="3" startPc="268438496"/>
-<entry endPc="268438656" name="weightKg" stackId="3" startPc="268438583"/>
-<entry endPc="268438892" name="eer" stackId="6" startPc="268438761"/>
-<entry endPc="268439440" name="zone" stackId="7" startPc="268438897"/>
-<entry endPc="268439440" name="hour" stackId="3" startPc="268438897"/>
-<entry endPc="268439440" name="timeProp" stackId="1" startPc="268438897"/>
-<entry endPc="268439440" name="min" stackId="4" startPc="268438897"/>
-<entry endPc="268439440" name="clockTime" stackId="2" startPc="268438897"/>
-<entry endPc="268439440" name="utcOffset" stackId="6" startPc="268438897"/>
-<entry endPc="268439440" name="timeStr" stackId="5" startPc="268438897"/>
-<entry endPc="268439938" name="dateStr" stackId="4" startPc="268439445"/>
-<entry endPc="268439938" name="dateProp" stackId="3" startPc="268439445"/>
-<entry endPc="268440952" name="screenWidth" stackId="2" startPc="268439943"/>
-<entry endPc="268440952" name="deviceSpecs" stackId="4" startPc="268439943"/>
-<entry endPc="268440952" name="screenHeight" stackId="3" startPc="268439943"/>
+<entry endPc="268437353" name="hrtRate" stackId="34" startPc="268436990"/>
+<entry endPc="268438333" name="activityBarLen" stackId="33" startPc="268435844"/>
+<entry endPc="268438333" name="pa" stackId="18" startPc="268435844"/>
+<entry endPc="268438333" name="stepGoal" stackId="20" startPc="268435844"/>
+<entry endPc="268438333" name="now" stackId="2" startPc="268435844"/>
+<entry endPc="268438333" name="userProfile" stackId="8" startPc="268435844"/>
+<entry endPc="268438333" name="caloriesBarLen" stackId="32" startPc="268435844"/>
+<entry endPc="268438333" name="activityStr" stackId="27" startPc="268435844"/>
+<entry endPc="268438333" name="moveBarLevel" stackId="23" startPc="268435844"/>
+<entry endPc="268438333" name="hrtIter" stackId="12" startPc="268435844"/>
+<entry endPc="268438333" name="stepsBarLen" stackId="31" startPc="268435844"/>
+<entry endPc="268438333" name="activityLen" stackId="30" startPc="268435844"/>
+<entry endPc="268438333" name="Calories" stackId="22" startPc="268435844"/>
+<entry endPc="268438333" name="dateStr" stackId="25" startPc="268435844"/>
+<entry endPc="268438333" name="weight" stackId="17" startPc="268435844"/>
+<entry endPc="268438333" name="eerProp" stackId="11" startPc="268435844"/>
+<entry endPc="268438333" name="clockTime" stackId="5" startPc="268435844"/>
+<entry endPc="268438333" name="age" stackId="15" startPc="268435844"/>
+<entry endPc="268438333" name="gender" stackId="14" startPc="268435844"/>
+<entry endPc="268438333" name="height" stackId="16" startPc="268435844"/>
+<entry endPc="268438333" name="eerStr" stackId="28" startPc="268435844"/>
+<entry endPc="268438333" name="moveBarLevelRange" stackId="24" startPc="268435844"/>
+<entry endPc="268438333" name="timeElements" stackId="35" startPc="268435844"/>
+<entry endPc="268438333" name="hrtProp" stackId="10" startPc="268435844"/>
+<entry endPc="268438333" name="steps" stackId="21" startPc="268435844"/>
+<entry endPc="268438333" name="activityClass" stackId="13" startPc="268435844"/>
+<entry endPc="268438333" name="eer" stackId="19" startPc="268435844"/>
+<entry endPc="268438333" name="info" stackId="3" startPc="268435844"/>
+<entry endPc="268438333" name="progressBarLen" stackId="29" startPc="268435844"/>
+<entry endPc="268438333" name="batteryStr" stackId="26" startPc="268435844"/>
+<entry endPc="268438333" name="bgProp" stackId="9" startPc="268435844"/>
+<entry endPc="268438333" name="activityInfo" stackId="7" startPc="268435844"/>
+<entry endPc="268438333" name="infoShort" stackId="4" startPc="268435844"/>
+<entry endPc="268438333" name="stats" stackId="6" startPc="268435844"/>
+<entry endPc="268438597" name="pa" stackId="3" startPc="268438353"/>
+<entry endPc="268438630" name="age" stackId="3" startPc="268438602"/>
+<entry endPc="268438717" name="heightM" stackId="3" startPc="268438635"/>
+<entry endPc="268438795" name="weightKg" stackId="3" startPc="268438722"/>
+<entry endPc="268439031" name="eer" stackId="6" startPc="268438900"/>
+<entry endPc="268439579" name="zone" stackId="7" startPc="268439036"/>
+<entry endPc="268439579" name="hour" stackId="3" startPc="268439036"/>
+<entry endPc="268439579" name="timeProp" stackId="1" startPc="268439036"/>
+<entry endPc="268439579" name="min" stackId="4" startPc="268439036"/>
+<entry endPc="268439579" name="clockTime" stackId="2" startPc="268439036"/>
+<entry endPc="268439579" name="utcOffset" stackId="6" startPc="268439036"/>
+<entry endPc="268439579" name="timeStr" stackId="5" startPc="268439036"/>
+<entry endPc="268440077" name="dateStr" stackId="4" startPc="268439584"/>
+<entry endPc="268440077" name="dateProp" stackId="3" startPc="268439584"/>
+<entry endPc="268441091" name="screenWidth" stackId="2" startPc="268440082"/>
+<entry endPc="268441091" name="deviceSpecs" stackId="4" startPc="268440082"/>
+<entry endPc="268441091" name="screenHeight" stackId="3" startPc="268440082"/>
 </localVars>
 <annotations/>
 <functions>

@@ -25,7 +25,8 @@
 		<settingConfig type="list">
 			<listEntry value="0">@Strings.red</listEntry>
 			<listEntry value="1">@Strings.usa</listEntry>
-			<listEntry value="2">@Strings.none</listEntry>
+			<listEntry value="2">@Strings.yellowleaf</listEntry>
+			<listEntry value="3">@Strings.none</listEntry>
 		</settingConfig>
 	</setting>
 	<setting propertyKey="@Properties.PROP_EER_SHOW" title="@Strings.eerShow">

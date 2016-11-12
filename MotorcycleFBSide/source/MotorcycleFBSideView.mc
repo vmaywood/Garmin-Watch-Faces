@@ -21,6 +21,7 @@ class MotorcycleFBSideView extends Ui.WatchFace {
 	var bmp = null;
 	var hrtRed = null;
 	var hrtUsa = null;	
+	var hrtYellowLeaf = null;
     var deviceSpecs = null;  
 
     function initialize() {
@@ -34,10 +35,12 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         if (deviceSpecs["watchType"] == rectangle) {
             hrtRed = Ui.loadResource(Rez.Drawables.HeartRed56);
         	hrtUsa = Ui.loadResource(Rez.Drawables.HeartUsa56);
+        	hrtYellowLeaf = Ui.loadResource(Rez.Drawables.YellowLeaf56);
         }
         else {
         	hrtRed = Ui.loadResource(Rez.Drawables.HeartRed66);
         	hrtUsa = Ui.loadResource(Rez.Drawables.HeartUsa66);
+        	hrtYellowLeaf = Ui.loadResource(Rez.Drawables.YellowLeaf66);
         }
     }
 
@@ -122,7 +125,8 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         	dc.setColor(Gfx.COLOR_BLACK,  Gfx.COLOR_TRANSPARENT);
         	if (hrtProp == 0)		{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtRed); }
         	else if (hrtProp == 1)	{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtUsa); }
-        	else if (hrtProp == 2)	{ dc.setColor(Gfx.COLOR_DK_RED, Gfx.COLOR_TRANSPARENT); }	// No image
+        	else if (hrtProp == 2)	{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtYellowLeaf); }
+        	else if (hrtProp == 3)	{ dc.setColor(Gfx.COLOR_DK_RED, Gfx.COLOR_TRANSPARENT); }	// No image
         	
  			dc.drawText (deviceSpecs["offsetHeart"]+deviceSpecs["offsetHeartFont"], 6, Gfx.FONT_LARGE, hrtRate, Gfx.TEXT_JUSTIFY_CENTER);		
         }
