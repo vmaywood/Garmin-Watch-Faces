@@ -7,4 +7,6 @@
         <bitmap id="HeartUsa56" filename="heart-usa-56.png"></bitmap>
         <bitmap id="HeartRed56" filename="heart-solid-red-56.png"></bitmap>
         <bitmap id="YellowLeaf56" filename="yellow-leaf-56.png"></bitmap>
+        <bitmap id="SnowFlakes56" filename="snowflake-heart-56.png"></bitmap>
+        <bitmap id="SnowFlakes66" filename="snowflake-heart-66.png"></bitmap>
 </drawables>

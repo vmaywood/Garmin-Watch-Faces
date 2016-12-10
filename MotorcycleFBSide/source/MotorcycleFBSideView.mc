@@ -22,6 +22,7 @@ class MotorcycleFBSideView extends Ui.WatchFace {
 	var hrtRed = null;
 	var hrtUsa = null;	
 	var hrtYellowLeaf = null;
+	var hrtSnowFlakes = null;
     var deviceSpecs = null;  
 
     function initialize() {
@@ -36,11 +37,13 @@ class MotorcycleFBSideView extends Ui.WatchFace {
             hrtRed = Ui.loadResource(Rez.Drawables.HeartRed56);
         	hrtUsa = Ui.loadResource(Rez.Drawables.HeartUsa56);
         	hrtYellowLeaf = Ui.loadResource(Rez.Drawables.YellowLeaf56);
+        	hrtSnowFlakes = Ui.loadResource(Rez.Drawables.SnowFlakes56);
         }
         else {
         	hrtRed = Ui.loadResource(Rez.Drawables.HeartRed66);
         	hrtUsa = Ui.loadResource(Rez.Drawables.HeartUsa66);
         	hrtYellowLeaf = Ui.loadResource(Rez.Drawables.YellowLeaf66);
+        	hrtSnowFlakes = Ui.loadResource(Rez.Drawables.SnowFlakes66);
         }
     }
 
@@ -122,11 +125,17 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         	if (hrtIter.getMax() != hrtIter.INVALID_HR_SAMPLE) {
         		hrtRate = hrtIter.getMax();
         	}
-        	dc.setColor(Gfx.COLOR_BLACK,  Gfx.COLOR_TRANSPARENT);
+        	if (hrtProp <=2) {
+        		dc.setColor(Gfx.COLOR_BLACK,  Gfx.COLOR_TRANSPARENT);
+        	}
+        	else {
+        	    dc.setColor(Gfx.COLOR_WHITE,  Gfx.COLOR_TRANSPARENT);
+        	}
         	if (hrtProp == 0)		{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtRed); }
         	else if (hrtProp == 1)	{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtUsa); }
         	else if (hrtProp == 2)	{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtYellowLeaf); }
-        	else if (hrtProp == 3)	{ dc.setColor(Gfx.COLOR_DK_RED, Gfx.COLOR_TRANSPARENT); }	// No image
+        	else if (hrtProp == 3)	{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtSnowFlakes); }
+        	else if (hrtProp == 4)	{ dc.setColor(Gfx.COLOR_DK_RED, Gfx.COLOR_TRANSPARENT); }	// No image
         	
  			dc.drawText (deviceSpecs["offsetHeart"]+deviceSpecs["offsetHeartFont"], 6, Gfx.FONT_LARGE, hrtRate, Gfx.TEXT_JUSTIFY_CENTER);		
         }
