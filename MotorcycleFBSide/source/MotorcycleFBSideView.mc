@@ -125,7 +125,7 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         	if (hrtIter.getMax() != hrtIter.INVALID_HR_SAMPLE) {
         		hrtRate = hrtIter.getMax();
         	}
-        	if (hrtProp <=2) {
+        	if (hrtProp <=2 || bgProp > 0) {	//Set black also if background is white and whitish icons
         		dc.setColor(Gfx.COLOR_BLACK,  Gfx.COLOR_TRANSPARENT);
         	}
         	else {
