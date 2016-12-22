@@ -155,11 +155,11 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         	if (hrtIter.getMax() != hrtIter.INVALID_HR_SAMPLE) {
         		hrtRate = hrtIter.getMax();
         	}
-        	if (hrtProp <=2 || bgProp > 0) {	// Non-transparent icons || transparent icons and non-black background
+        	if (bgProp == 0 && hrtProp > 2) {
+        		dc.setColor(Gfx.COLOR_WHITE,  Gfx.COLOR_TRANSPARENT);	// Black background with transparent icons need white hrtrate font color
+			}
+			else {
         		dc.setColor(Gfx.COLOR_BLACK,  Gfx.COLOR_TRANSPARENT);
-        	}
-        	else {
-        	    dc.setColor(Gfx.COLOR_WHITE,  Gfx.COLOR_TRANSPARENT);	// Transparent icons and black background  need white hrtrate font color
         	}
         	if (hrtProp == 0)		{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtRed); }
         	else if (hrtProp == 1)	{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtUsa); }
@@ -172,8 +172,8 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         
         // Display EER
         if (eerProp != null && !eerProp.equals("") && eerProp == 1) {	// Default is to show eer
-        	if (bgProp == 0) {
-        		dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT);
+        	if (bgProp == 0 || bgProp == 12) {	// Black or white
+        		dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
         	}
         	else {
        			dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
@@ -192,7 +192,7 @@ class MotorcycleFBSideView extends Ui.WatchFace {
 		dc.drawText (deviceSpecs["XOffsetDate"], deviceSpecs["YOffsetBmp"], Gfx.FONT_TINY, dateStr, Gfx.TEXT_JUSTIFY_CENTER);
 		
 		// Display time
-		if (bgProp == 0) {
+		if (bgProp == 0 || bgProp == 12) {	// Black or white
 			dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT);
 		}
 		else {
@@ -210,7 +210,17 @@ class MotorcycleFBSideView extends Ui.WatchFace {
 		dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);	// Black container for bars
  		dc.fillRectangle(3, deviceSpecs["YOffsetBmp"]+42, 67, 6);
 		dc.fillRectangle(12, deviceSpecs["YOffsetBmp"]+59, 67, 6);
-		dc.fillRoundedRectangle(deviceSpecs["XOffsetActivity"]-1, deviceSpecs["YOffsetActivity"]-1, activityLen+2, 6, 60);
+		dc.fillRoundedRectangle(deviceSpecs["XOffsetActivity"]-1, deviceSpecs["YOffsetActivity"]-1, activityLen+2, 6, 90);
+		
+		// Draw vertical section lines into the empty move bar area
+		dc.setColor(bgColors[bgProp], bgColors[bgProp]);
+		for (var s=activityInfo.MOVE_BAR_LEVEL_MIN+1; s<activityInfo.MOVE_BAR_LEVEL_MAX; ++s) {
+			var activityBarMarker = moveBarLevelRange ? (activityLen*(s.toDouble()/moveBarLevelRange.toDouble())).toNumber() : 0;
+			if (activityBarMarker > activityLen) {
+    			break;
+    		}
+    		dc.drawLine(deviceSpecs["XOffsetActivity"]+activityBarMarker, deviceSpecs["YOffsetActivity"], deviceSpecs["XOffsetActivity"]+activityBarMarker, deviceSpecs["YOffsetActivity"]+6);
+    	}
  		
  		dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_GREEN);	// % steps to goal bar
  		dc.fillRectangle(4, deviceSpecs["YOffsetBmp"]+43, stepsBarLen, 4);
