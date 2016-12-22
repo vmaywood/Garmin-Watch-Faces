@@ -18,6 +18,37 @@ class MotorcycleFBSideView extends Ui.WatchFace {
 					'Z',
 					'A','B','C','D','E','F','G','H','I','K','L','M'
 	];
+	const BLACK = Gfx.COLOR_BLACK;
+	const BLUE = Gfx.COLOR_BLUE;
+	const DK_BLUE = Gfx.COLOR_DK_BLUE;
+	const DK_GRAY = Gfx.COLOR_DK_GRAY;
+	const DK_GREEN = Gfx.COLOR_DK_GREEN;
+	const DK_RED = Gfx.COLOR_DK_RED;
+	const GREEN = Gfx.COLOR_GREEN;
+	const LT_GRAY = Gfx.COLOR_LT_GRAY;
+	const ORANGE = Gfx.COLOR_ORANGE;
+	const PINK = Gfx.COLOR_PINK;
+	const PURPLE = Gfx.COLOR_PURPLE;
+	const RED = Gfx.COLOR_RED;
+	const WHITE = Gfx.COLOR_WHITE;
+	const YELLOW = Gfx.COLOR_YELLOW;
+	
+	const bgColors = [	BLACK,
+						BLUE,
+						DK_BLUE,
+						DK_GRAY,
+						DK_GREEN,
+						DK_RED,
+						GREEN,
+						LT_GRAY,
+						ORANGE,
+						PINK,
+						PURPLE,
+						RED,
+						WHITE,
+						YELLOW
+					];
+					
 	var bmp = null;
 	var hrtRed = null;
 	var hrtUsa = null;	
@@ -102,14 +133,13 @@ class MotorcycleFBSideView extends Ui.WatchFace {
     	}
         
         // Draw the engine on chosen background       
-        if (bgProp == null || bgProp.equals("") || bgProp == 0)	{
+        if (bgProp == null || bgProp.equals("")) {
         	bgProp = 0;
-        	dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);
         }
-		else {										
-			bgProp = bgProp.toNumber();		
-			dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_WHITE);
-		}       
+        else {
+        	bgProp = bgProp.toNumber();
+        }
+        dc.setColor(bgColors[bgProp], bgColors[bgProp]);    
         dc.clear();    
         dc.drawBitmap(0, deviceSpecs["YOffsetBmp"], bmp);  		 	  		
    		
@@ -125,11 +155,11 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         	if (hrtIter.getMax() != hrtIter.INVALID_HR_SAMPLE) {
         		hrtRate = hrtIter.getMax();
         	}
-        	if (hrtProp <=2 || bgProp > 0) {	//Set black also if background is white and whitish icons
+        	if (hrtProp <=2 || bgProp > 0) {	// Non-transparent icons || transparent icons and non-black background
         		dc.setColor(Gfx.COLOR_BLACK,  Gfx.COLOR_TRANSPARENT);
         	}
         	else {
-        	    dc.setColor(Gfx.COLOR_WHITE,  Gfx.COLOR_TRANSPARENT);
+        	    dc.setColor(Gfx.COLOR_WHITE,  Gfx.COLOR_TRANSPARENT);	// Transparent icons and black background  need white hrtrate font color
         	}
         	if (hrtProp == 0)		{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtRed); }
         	else if (hrtProp == 1)	{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtUsa); }
@@ -142,7 +172,12 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         
         // Display EER
         if (eerProp != null && !eerProp.equals("") && eerProp == 1) {	// Default is to show eer
-        	dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);	
+        	if (bgProp == 0) {
+        		dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT);
+        	}
+        	else {
+       			dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
+        	} 
    			dc.drawText (10, deviceSpecs["YOffsetBmp"]+65, Gfx.FONT_SYSTEM_XTINY, eerStr, Gfx.TEXT_JUSTIFY_LEFT); 
    		}
         
@@ -157,7 +192,12 @@ class MotorcycleFBSideView extends Ui.WatchFace {
 		dc.drawText (deviceSpecs["XOffsetDate"], deviceSpecs["YOffsetBmp"], Gfx.FONT_TINY, dateStr, Gfx.TEXT_JUSTIFY_CENTER);
 		
 		// Display time
-		dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT);   
+		if (bgProp == 0) {
+			dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT);
+		}
+		else {
+			dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
+		}
 		var timeElements = getTimeStr();          
         dc.drawText (deviceSpecs["screenWidth"]/2, deviceSpecs["YOffsetTime"], deviceSpecs["timeFont"], timeElements[0], Gfx.TEXT_JUSTIFY_CENTER);         
 		if (timeElements[1]) {
@@ -170,6 +210,7 @@ class MotorcycleFBSideView extends Ui.WatchFace {
 		dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_BLACK);	// Black container for bars
  		dc.fillRectangle(3, deviceSpecs["YOffsetBmp"]+42, 67, 6);
 		dc.fillRectangle(12, deviceSpecs["YOffsetBmp"]+59, 67, 6);
+		dc.fillRoundedRectangle(deviceSpecs["XOffsetActivity"]-1, deviceSpecs["YOffsetActivity"]-1, activityLen+2, 6, 60);
  		
  		dc.setColor(Gfx.COLOR_GREEN, Gfx.COLOR_GREEN);	// % steps to goal bar
  		dc.fillRectangle(4, deviceSpecs["YOffsetBmp"]+43, stepsBarLen, 4);
