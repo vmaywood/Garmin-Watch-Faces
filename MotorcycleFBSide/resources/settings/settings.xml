@@ -33,6 +33,13 @@
 			<listEntry value="13">@Strings.YELLOW_Background</listEntry>
 		</settingConfig>
 	</setting>
+		<setting propertyKey="@Properties.PROP_FONT_COLOR" title="@Strings.fontColor">
+		<settingConfig type="list">
+			<listEntry value="0">@Strings.AUTO_Font</listEntry>
+			<listEntry value="1">@Strings.BLACK_Font</listEntry>
+			<listEntry value="2">@Strings.WHITE_Font</listEntry>	
+			</settingConfig>
+	</setting>		
 	<setting propertyKey="@Properties.PROP_HEART_TYPE" title="@Strings.heartType">
 		<settingConfig type="list">
 			<listEntry value="0">@Strings.red</listEntry>

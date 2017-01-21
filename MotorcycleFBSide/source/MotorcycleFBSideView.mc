@@ -94,6 +94,7 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         var activityInfo = Act.getInfo();
         var userProfile = User.getProfile();   
         var bgProp = App.getApp().getProperty("PROP_BACKGROUND_COLOR");
+        var fontProp = App.getApp().getProperty("PROP_FONT_COLOR");
         var hrtProp = App.getApp().getProperty("PROP_HEART_TYPE");
         var eerProp = App.getApp().getProperty("PROP_EER_SHOW");
                   
@@ -132,13 +133,10 @@ class MotorcycleFBSideView extends Ui.WatchFace {
     		activityBarLen = activityLen;
     	}
         
-        // Draw the engine on chosen background       
-        if (bgProp == null || bgProp.equals("")) {
-        	bgProp = 0;
-        }
-        else {
-        	bgProp = bgProp.toNumber();
-        }
+        // Set background on font colors from settings    
+        bgProp = (bgProp == null || bgProp.equals("")) ? 0 : bgProp.toNumber();
+        fontProp = (fontProp == null || fontProp.equals("")) ? 0 : fontProp.toNumber();
+
         dc.setColor(bgColors[bgProp], bgColors[bgProp]);    
         dc.clear();    
         dc.drawBitmap(0, deviceSpecs["YOffsetBmp"], bmp);  		 	  		
@@ -155,12 +153,14 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         	if (hrtIter.getMax() != hrtIter.INVALID_HR_SAMPLE) {
         		hrtRate = hrtIter.getMax();
         	}
-        	if (bgProp == 0 && hrtProp > 2) {
-        		dc.setColor(Gfx.COLOR_WHITE,  Gfx.COLOR_TRANSPARENT);	// Black background with transparent icons need white hrtrate font color
-			}
-			else {
-        		dc.setColor(Gfx.COLOR_BLACK,  Gfx.COLOR_TRANSPARENT);
+        	if (fontProp == 0) {
+        		if (bgProp == 0 && hrtProp > 2) {
+        					dc.setColor(Gfx.COLOR_WHITE,  Gfx.COLOR_TRANSPARENT); }	// Black background with transparent icons need white hrtrate font color
+				else {		dc.setColor(Gfx.COLOR_BLACK,  Gfx.COLOR_TRANSPARENT); }
         	}
+        	else if (fontProp == 1) { dc.setColor(Gfx.COLOR_BLACK,  Gfx.COLOR_TRANSPARENT); }
+        	else 					{ dc.setColor(Gfx.COLOR_WHITE,  Gfx.COLOR_TRANSPARENT); }
+        	
         	if (hrtProp == 0)		{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtRed); }
         	else if (hrtProp == 1)	{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtUsa); }
         	else if (hrtProp == 2)	{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtYellowLeaf); }
@@ -172,32 +172,37 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         
         // Display EER
         if (eerProp != null && !eerProp.equals("") && eerProp == 1) {	// Default is to show eer
-        	if (bgProp == 0 || bgProp == 12) {	// Black or white
-        		dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT);
+        	if (fontProp == 0) {
+        		if (bgProp == 0 || bgProp == 12) {	// Black or white
+        					dc.setColor(Gfx.COLOR_YELLOW, Gfx.COLOR_TRANSPARENT); }
+        		else {		dc.setColor(Gfx.COLOR_BLACK,  Gfx.COLOR_TRANSPARENT); } 
         	}
-        	else {
-       			dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
-        	} 
+        	else if (fontProp == 1) { dc.setColor(Gfx.COLOR_BLACK,  Gfx.COLOR_TRANSPARENT); }
+        	else 					{ dc.setColor(Gfx.COLOR_WHITE,  Gfx.COLOR_TRANSPARENT); }
+        	
    			dc.drawText (10, deviceSpecs["YOffsetBmp"]+65, Gfx.FONT_SYSTEM_XTINY, eerStr, Gfx.TEXT_JUSTIFY_LEFT); 
    		}
         
         // Display battery and date
-        if (bgProp == 0) {
-        	dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
+        if (fontProp == 0) {
+        	if (bgProp == 0)	{ dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT); }
+        	else 				{ dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT); }
         }
-        else {
-        	dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
-        }              
+        else if (fontProp == 1) { dc.setColor(Gfx.COLOR_BLACK,  Gfx.COLOR_TRANSPARENT); }
+        else 					{ dc.setColor(Gfx.COLOR_WHITE,  Gfx.COLOR_TRANSPARENT); }
+                      
 		dc.drawText (deviceSpecs["XOffsetDate"], deviceSpecs["YOffsetBmp"]-20, Gfx.FONT_TINY, batteryStr, Gfx.TEXT_JUSTIFY_CENTER);
 		dc.drawText (deviceSpecs["XOffsetDate"], deviceSpecs["YOffsetBmp"], Gfx.FONT_TINY, dateStr, Gfx.TEXT_JUSTIFY_CENTER);
 		
 		// Display time
-		if (bgProp == 0 || bgProp == 12) {	// Black or white
-			dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT);
+		if (fontProp == 0) {
+			if (bgProp == 0 || bgProp == 12) {	// Black or white
+						dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT); }
+			else {		dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
+			}
 		}
-		else {
-			dc.setColor(Gfx.COLOR_BLACK, Gfx.COLOR_TRANSPARENT);
-		}
+		else if (fontProp == 1) { dc.setColor(Gfx.COLOR_BLACK,  Gfx.COLOR_TRANSPARENT); }
+        else 					{ dc.setColor(Gfx.COLOR_WHITE,  Gfx.COLOR_TRANSPARENT); }
 		var timeElements = getTimeStr();          
         dc.drawText (deviceSpecs["screenWidth"]/2, deviceSpecs["YOffsetTime"], deviceSpecs["timeFont"], timeElements[0], Gfx.TEXT_JUSTIFY_CENTER);         
 		if (timeElements[1]) {
@@ -379,7 +384,7 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         }
 		else { // Default to 0
 			if (!Sys.getDeviceSettings().is24Hour) {
-        		timeStr = Lang.format("$1$:$2$", [(hour%12), min.format("%02d")]);
+        		timeStr = Lang.format("$1$:$2$", [hour > 12 ? (hour%12) : hour, min.format("%02d")]);
         	}
         	else {
         	    timeStr = Lang.format("$1$:$2$", [hour.format("%02d"), min.format("%02d")]);
