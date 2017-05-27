@@ -165,7 +165,7 @@ class MotorcycleFBSideView extends Ui.WatchFace {
         	else if (hrtProp == 1)	{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtUsa); }
         	else if (hrtProp == 2)	{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtYellowLeaf); }
         	else if (hrtProp == 3)	{ dc.drawBitmap(deviceSpecs["offsetHeart"], 0, hrtSnowFlakes); }
-        	else if (hrtProp == 4)	{ dc.setColor(Gfx.COLOR_DK_RED, Gfx.COLOR_TRANSPARENT); }	// No image
+        	else if (hrtProp == 4 && fontProp == 0)	{ dc.setColor(Gfx.COLOR_ORANGE, Gfx.COLOR_TRANSPARENT); }	// No image
         	
  			dc.drawText (deviceSpecs["offsetHeart"]+deviceSpecs["offsetHeartFont"], 6, Gfx.FONT_LARGE, hrtRate, Gfx.TEXT_JUSTIFY_CENTER);		
         }
